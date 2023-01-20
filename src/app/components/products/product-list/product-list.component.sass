@@ -1,0 +1,41 @@
+.container
+  height: 100%
+  width: 100%
+  padding: var(--padding-margin)
+  font-family: var(--font-family)
+  &--filter
+    height: 130px
+    background: linear-gradient(to bottom right, var(--green-color) 0%,var(--white-color) 30%, var(--white-color) 80%, var(--red-color) 100%)
+    background-clip: padding-box
+    border-radius: 5px
+    margin: var(--padding)
+    padding: 3px
+    display: flex
+    justify-content: center
+    align-items: center
+
+    &s
+      width: 100%
+      height: 100%
+      background: var(--gray-color)
+      border-radius: 5px
+      padding: var(--padding)
+      display: flex
+
+      .item-filter
+
+  &--products
+    width: 100%
+    height: calc(100vh - 29vh)
+    overflow-y: auto
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+
+    &-product
+      min-height: 400px
+      padding: 20px
+      width: 33%
+
+

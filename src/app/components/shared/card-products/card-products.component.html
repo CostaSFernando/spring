@@ -2,15 +2,15 @@
   <div class="container--card">
     <div class="container--card-title">
       <h2>
-        Grupo de maquina
+        {{ product.label }}
       </h2>
     </div>
 
-    <div class="container--card-content">
-      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-    </div>
+    <!-- <div class="container--card-content">
+      {{ product.description }}
+    </div> -->
     <div class="container--card-footer">
-      <div class="card-info">
+      <div class="card-info" (click)="controlModal(true)">
         Detalhes
       </div>
 
@@ -19,4 +19,15 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="modal--container" [ngClass]="{'modal-close': !modal}" >
+
+  <div class="modal--container-main">
+    <div class="exit" (click)="controlModal(false)">
+      X
+    </div>
+
+  </div>
+
 </div>

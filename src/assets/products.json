@@ -1,0 +1,220 @@
+{
+  "products": [
+    {
+      "label": "CNC camless Multi-Axis Spring Formers",
+      "table": {
+        "header": [
+          "Model",
+          "GNC-8HS",
+          "GMF-8E",
+          "GMF-16E",
+          "GMF-28STR",
+          "GNC-23",
+          "GHA-630",
+          "GHA-650",
+          "GHA-680",
+          "GHA-5120",
+          "GHA-5200",
+          "GW-6250",
+          "GW-750",
+          "GW-950"
+        ],
+        "values": {
+          "Number of Axes": [
+            "2",
+            "5",
+            "5",
+            "5",
+            "2",
+            "6",
+            "6",
+            "6",
+            "5 - 8",
+            "5 - 8",
+            "5 - 8",
+            "7",
+            "9"
+          ],
+          "Wire Diameter": [
+            "0,10 -0,80 mm",
+            "0,13 - 0,80 mm",
+            "0,70 - 1,80 mm",
+            "1,40 - 3,20 mm",
+            "0,80 - 2,80 mm",
+            "1,20 - 3,00 mm",
+            "2,00 - 5,00 mm",
+            "4,00 - 8,00 mm",
+            "6,00 - 12,00 mm",
+            "9,00 - 20,00 mm",
+            "13,00 - 25,00 mm",
+            "2,00 - 5,00 mm",
+            "2,00 - 5,00 mm"
+          ]
+        }
+      },
+      "description": "description test sadf asdc  asdcasdcasd asefasdcasdgf asdcasdxcasdf asdfasdc asdfas dcasdfgas dfasd casdfas df asdc asd fasdfc asd fsdsf ssadf"
+    },
+    {
+      "label": "CNC Cam Wire Spring Formers",
+      "table": {
+        "header": [
+          "Model",
+          "GNC-8HS",
+          "GMF-8E",
+          "GMF-16E",
+          "GMF-28STR",
+          "GNC-23",
+          "GHA-630",
+          "GHA-650",
+          "GHA-680",
+          "GHA-5120",
+          "GHA-5200",
+          "GW-6250",
+          "GW-750",
+          "GW-950"
+        ],
+        "values": {
+          "Number of Axes": [
+            "2",
+            "5",
+            "5",
+            "5",
+            "2",
+            "6",
+            "6",
+            "6",
+            "5 - 8",
+            "5 - 8",
+            "5 - 8",
+            "7",
+            "9"
+          ],
+          "Wire Diameter": [
+            "0,10 -0,80 mm",
+            "0,13 - 0,80 mm",
+            "0,70 - 1,80 mm",
+            "1,40 - 3,20 mm",
+            "0,80 - 2,80 mm",
+            "1,20 - 3,00 mm",
+            "2,00 - 5,00 mm",
+            "4,00 - 8,00 mm",
+            "6,00 - 12,00 mm",
+            "9,00 - 20,00 mm",
+            "13,00 - 25,00 mm",
+            "2,00 - 5,00 mm",
+            "2,00 - 5,00 mm"
+          ]
+        }
+      },
+      "description": "description test sadf asdc  asdcasdcasd asefasdcasdgf asdcasdxcasdf asdfasdc asdfas dcasdfgas dfasd casdfas df asdc asd fasdfc asd fsdsf ssadf"
+    },
+    {
+      "label": "CNC camless Multi-Axis Wire Benders",
+      "table": {
+        "header": [
+          "Model",
+          "GNC-8HS",
+          "GMF-8E",
+          "GMF-16E",
+          "GMF-28STR",
+          "GNC-23",
+          "GHA-630",
+          "GHA-650",
+          "GHA-680",
+          "GHA-5120",
+          "GHA-5200",
+          "GW-6250",
+          "GW-750",
+          "GW-950"
+        ],
+        "values": {
+          "Number of Axes": [
+            "2",
+            "5",
+            "5",
+            "5",
+            "2",
+            "6",
+            "6",
+            "6",
+            "5 - 8",
+            "5 - 8",
+            "5 - 8",
+            "7",
+            "9"
+          ],
+          "Wire Diameter": [
+            "0,10 -0,80 mm",
+            "0,13 - 0,80 mm",
+            "0,70 - 1,80 mm",
+            "1,40 - 3,20 mm",
+            "0,80 - 2,80 mm",
+            "1,20 - 3,00 mm",
+            "2,00 - 5,00 mm",
+            "4,00 - 8,00 mm",
+            "6,00 - 12,00 mm",
+            "9,00 - 20,00 mm",
+            "13,00 - 25,00 mm",
+            "2,00 - 5,00 mm",
+            "2,00 - 5,00 mm"
+          ]
+        }
+      },
+      "description": "description test sadf asdc  asdcasdcasd asefasdcasdgf asdcasdxcasdf asdfasdc asdfas dcasdfgas dfasd casdfas df asdc asd fasdfc asd fsdsf ssadf"
+    },
+    {
+      "label": "Universal Spring Compression",
+      "table": {
+        "header": [
+          "Model",
+          "GNC-8HS",
+          "GMF-8E",
+          "GMF-16E",
+          "GMF-28STR",
+          "GNC-23",
+          "GHA-630",
+          "GHA-650",
+          "GHA-680",
+          "GHA-5120",
+          "GHA-5200",
+          "GW-6250",
+          "GW-750",
+          "GW-950"
+        ],
+        "values": {
+          "Number of Axes": [
+            "2",
+            "5",
+            "5",
+            "5",
+            "2",
+            "6",
+            "6",
+            "6",
+            "5 - 8",
+            "5 - 8",
+            "5 - 8",
+            "7",
+            "9"
+          ],
+          "Wire Diameter": [
+            "0,10 -0,80 mm",
+            "0,13 - 0,80 mm",
+            "0,70 - 1,80 mm",
+            "1,40 - 3,20 mm",
+            "0,80 - 2,80 mm",
+            "1,20 - 3,00 mm",
+            "2,00 - 5,00 mm",
+            "4,00 - 8,00 mm",
+            "6,00 - 12,00 mm",
+            "9,00 - 20,00 mm",
+            "13,00 - 25,00 mm",
+            "2,00 - 5,00 mm",
+            "2,00 - 5,00 mm"
+          ]
+        }
+      },
+      "description": "description test sadf asdc  asdcasdcasd asefasdcasdgf asdcasdxcasdf asdfasdc asdfas dcasdfgas dfasd casdfas df asdc asd fasdfc asd fsdsf ssadf"
+    }
+  ]
+}

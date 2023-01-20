@@ -7,6 +7,9 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CardProductsComponent } from './components/shared/card-products/card-products.component';
+import { ProductListComponent } from './components/products/product-list/product-list.component';
+import { ProductComponent } from './components/products/product/product.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CardProductsComponent } from './components/shared/card-products/card-pr
     HomeComponent,
     HeaderComponent,
     CarouselComponent,
-    CardProductsComponent
+    CardProductsComponent,
+    ProductListComponent,
+    ProductComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

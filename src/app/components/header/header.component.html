@@ -2,16 +2,13 @@
   <!-- <img src="../../../assets/imagens/molas-removebg-preview.png" alt="" class="background--header"> -->
   <div class="container--menu">
     <div class="logo">
-      <img src="../../../assets/imagens/logospring-removebg-preview.png" alt="">
+      <img src="../../../assets/imagens/logospring-removebg-preview.png" alt="" [routerLink]="['']">
     </div>
     <div class="buttons">
-      <div class="item">
-        Home
-      </div>
-      <div class="item">
+      <div class="item" [routerLink]="['products']">
         produtos
       </div>
-      <div class="item">
+      <div class="item" [routerLink]="['contacts']">
         Contatos
       </div>
     </div>

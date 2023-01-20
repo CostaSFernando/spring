@@ -4,6 +4,9 @@
   margin: 0
   padding: 0
   box-sizing: border-box
+  overflow: hidden
+  font-family: var(--font-family)
+  transition: 0.5s
 
 body
   width: 100vw
@@ -19,3 +22,23 @@ body
   --font-family: 'Nunito'
   --padding-margin: 20px
   --padding: 15px
+
+*::-webkit-scrollbar
+  width: 3px
+
+
+/* Track */
+*::-webkit-scrollbar-track
+  background: none
+  border-radius: 10px
+
+
+/* Handle */
+*::-webkit-scrollbar-thumb
+  background: #7A7A7A
+  border-radius: 10px
+
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover
+  background: #2c2c2c
