@@ -1,0 +1,37 @@
+{
+  "contacts": [
+    {
+      "address": "1890 NW ave",
+      "address2": "Doral FL 33172 USA",
+      "tel": "1 770 778 8628",
+      "mail": "info@springspecialist.com",
+      "flag": "/assets/bandeiras/bandeira-dos-estados-unidos-eua.png"
+    },
+    {
+      "address": "Tulipanes 217-Int.19 TAbachines",
+      "address2": "76902 El Pueblito, Qro., Mexico",
+      "tel": "+52 442 225 5360",
+      "mail": "ventas@springspecialist.com",
+      "flag": "/assets/bandeiras/Flag_of_Mexico.png"
+    },
+    {
+      "address": "Suite 1503 15/F, Carnival Com. Bld.",
+      "address2": "18 Java Rd North Point  Hong Kong",
+      "tel": "+86 186 2129 8037",
+      "mail": "info@springspecialist.com"
+    },
+    {
+      "address": "No.3, Zhongkang 3rd St., Xitun Dist.",
+      "address2": "Taichung City 40761 Taiwan R.O.C.",
+      "tel": "+ 886 4 2425 0058",
+      "mail": "info@springspecialist.com"
+    },
+    {
+      "address": "Rua Amazonas,174",
+      "address2": "São Paulo SP  01123-030 Brazil",
+      "tel": "+ 55 11 9 8181 6171",
+      "mail": "info@springspecialist.com",
+      "flag": "/assets/bandeiras/Brazil_flag_300.png"
+    }
+  ]
+}

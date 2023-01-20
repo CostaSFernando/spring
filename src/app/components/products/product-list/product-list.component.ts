@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductListComponent implements OnInit {
 
-  private products = require('../../../../assets/products.json');
+  private products = require('../../../../assets/data/products.json');
   listProducts: any;
 
   constructor() { }
