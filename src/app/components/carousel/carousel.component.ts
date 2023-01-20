@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
 
-  private products = (require('../../../assets/products.json')).products;
+  private products = (require('../../../assets/data/products.json')).products;
   listProducts: any;
 
   constructor() { }

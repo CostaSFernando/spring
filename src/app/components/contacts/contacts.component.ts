@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactsComponent implements OnInit {
 
+  private contacts = require('../../../assets/data/contact.json');
+
   constructor() { }
 
   ngOnInit(): void {
