@@ -1,5 +1,26 @@
 <div class="container">
-  <app-card>
-    Teste
+  <app-card *ngFor="let contact of listContacts">
+    <div class="container--contact">
+      <div class="container--contact-flag">
+        <img *ngIf="contact.flag" [src]="'../../..'+contact.flag">
+      </div>
+      <div class="container--contact-address">
+        <span>
+          {{ contact.address }}
+        </span>
+        <span>
+          {{ contact.address2 }}
+        </span>
+
+      </div>
+      <div class="container--contact-contact">
+        <span>
+          {{ contact.tel }}
+        </span>
+        <span>
+          {{ contact.mail }}
+        </span>
+      </div>
+    </div>
   </app-card>
 </div>

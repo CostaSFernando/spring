@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+const contacts = require('../../../assets/data/contact.json');
 @Component({
   selector: 'app-contacts',
   templateUrl: './contacts.component.html',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactsComponent implements OnInit {
 
-  private contacts = require('../../../assets/data/contact.json');
+  listContacts = contacts.contacts
 
   constructor() { }
 
