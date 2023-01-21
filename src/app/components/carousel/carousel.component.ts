@@ -8,12 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class CarouselComponent implements OnInit {
 
   private products = (require('../../../assets/data/products.json')).products;
-  listProducts: any;
+  listProducts: any
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    this.listProducts = this.products
+    this.listProducts = [this.products[0], this.products[1], this.products[2]]
   }
-
 }

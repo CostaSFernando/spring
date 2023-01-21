@@ -24,10 +24,35 @@
 <div class="modal--container" [ngClass]="{'modal-close': !modal}" >
 
   <div class="modal--container-main">
-    <div class="exit" (click)="controlModal(false)">
-      X
+    <div class="header">
+      <div class="exit" (click)="controlModal(false)">
+        X
+      </div>
+      <div class="label">
+        {{ product.label }}
+      </div>
     </div>
 
+    <div class="body">
+      <p>
+        {{ product.description }}
+      </p>
+      <div class="body--table">
+        <div class="body--table-header">
+          <div class="item" *ngFor="let item of product.table.header">
+            {{ item }}
+          </div>
+        </div>
+        <div class="body--table-body">
+          <div class="row" *ngFor="let row of product.table.values">
+            <div class="item" *ngFor="let item of row">
+              {{ item }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 
 </div>
