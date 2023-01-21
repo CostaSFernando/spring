@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path docs",
-    "watch": "ng build --watch --configuration development --base-href /spring/",
+    "build": "ng build --output-path docs --base-href /spring/",
+    "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "private": true,
