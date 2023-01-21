@@ -2,7 +2,7 @@
   <app-card *ngFor="let contact of listContacts">
     <div class="container--contact">
       <div class="container--contact-flag">
-        <img *ngIf="contact.flag" [src]="'../../..'+contact.flag">
+        <img *ngIf="contact.flag" [src]="contact.flag">
       </div>
       <div class="container--contact-address">
         <span>
