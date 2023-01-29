@@ -2,24 +2,17 @@
   <div class="container--filter">
     <div class="container--filters">
       <div class="item-filter">
-        <h3>
-          Grupo
-        </h3>
-        <select name="group" id="group">
-          <option value="camlessWireFormers">Camless Wire Formers</option>
-          <option value="camWireFormers">Cam Wire Formers</option>
-          <option value="wireBenders">Wire Benders</option>
-          <option value="coilersJYF">Coilers JYF</option>
-          <option value="coilersGuru">Coilers Guru</option>
-        </select>
+        <input type="text" name="label" #labelFilter (keyup)="filterProducts(labelFilter)">
       </div>
     </div>
 
 
   </div>
   <div class="container--products">
-    <div class="container--products-product" *ngFor="let product of listProducts.products">
-      <app-card-products [product]="product"></app-card-products>
-    </div>
+    <ng-container *ngIf="listProducts.length > 0">
+      <div class="container--products-product" *ngFor="let product of listProducts">
+        <app-card-products [product]="product"></app-card-products>
+      </div>
+    </ng-container>
   </div>
 </div>

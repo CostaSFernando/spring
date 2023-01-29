@@ -8,12 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class ProductListComponent implements OnInit {
 
   private products = require('../../../../assets/data/products.json');
-  listProducts: any;
+  listProducts: any[] = [];
 
-  constructor() { }
+  constructor() {
+    this.listProducts = this.products.products
+  }
 
-  ngOnInit(): void {
-    this.listProducts = this.products
+  ngOnInit(): void { }
+
+  filterProducts(str: HTMLInputElement) {
+    this.listProducts = this.products.products.filter((item: any) => item.label.includes(str.value));
   }
 
 }
