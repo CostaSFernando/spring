@@ -2,7 +2,19 @@
   <div class="container--filter">
     <div class="container--filters">
       <div class="item-filter">
+        <span class="title">
+          Product
+        </span>
         <input type="text" name="label" #labelFilter (keyup)="filterProducts(labelFilter)">
+      </div>
+      <div class="item-filter">
+        <span class="title">
+          Category
+        </span>
+        <select name="type">
+          <option value="new">New</option>
+          <option value="used">Used</option>
+        </select>
       </div>
     </div>
 
