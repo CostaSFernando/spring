@@ -20,4 +20,9 @@ export class ProductListComponent implements OnInit {
     this.listProducts = this.products.products.filter((item: any) => item.label.includes(str.value));
   }
 
+  filterProductsWithCategory(e: HTMLSelectElement, str: HTMLInputElement) {
+    const category = e.selectedOptions[0].value
+    this.listProducts = this.products.products.filter((item: any) => (item.category === category || category === 'all') && item.label.includes(str.value));
+  }
+
 }

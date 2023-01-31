@@ -2,6 +2,7 @@
   "products": [
     {
       "label": "CNC camless Multi-Axis Spring Formers",
+      "category": "new",
       "table": {
         "header": [
           "Model",
@@ -58,6 +59,7 @@
     },
     {
       "label": "CNC Cam Wire Spring Formers",
+      "category": "new",
       "table": {
         "header": [
           "Model",
@@ -114,6 +116,7 @@
     },
     {
       "label": "CNC camless Multi-Axis Wire Benders",
+      "category": "new",
       "table": {
         "header": [
           "Model",
@@ -170,6 +173,7 @@
     },
     {
       "label": "Universal Spring Compression",
+      "category": "new",
       "table": {
         "header": [
           "Model",
@@ -226,6 +230,7 @@
     },
     {
       "label": "CNC Spring Compression",
+      "category": "used",
       "description": "description test sadf asdc  asdcasdcasd asefasdcasdgf asdcasdxcasdf asdfasdc asdfas dcasdfgas dfasd casdfas df asdc asd fasdfc asd fsdsf ssadf",
       "table": {
         "header": [
@@ -362,6 +367,7 @@
     },
     {
       "label": "CNC Micro Spring Machine - Compression,Torsion  and Extension springs",
+      "category": "used",
       "description": "xxxxxxxxx",
       "table": {
         "header": [
@@ -410,6 +416,7 @@
     },
     {
       "label": "CNC Torsion Spring Machine",
+      "category": "new",
       "description": "nada",
       "table": {
         "header": [
