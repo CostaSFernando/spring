@@ -1,7 +1,9 @@
 {
   "products": [
+
     {
       "label": "CNC camless Multi-Axis Spring Formers",
+      "category": "new",
       "table": {
         "header": [
           "Model",
@@ -58,6 +60,7 @@
     },
     {
       "label": "CNC Cam Wire Spring Formers",
+      "category": "new",
       "table": {
         "header": [
           "Model",
@@ -114,6 +117,7 @@
     },
     {
       "label": "CNC camless Multi-Axis Wire Benders",
+      "category": "new",
       "table": {
         "header": [
           "Model",
@@ -170,6 +174,7 @@
     },
     {
       "label": "Universal Spring Compression",
+      "category": "new",
       "table": {
         "header": [
           "Model",
@@ -223,6 +228,603 @@
         ]
       },
       "description": "description test sadf asdc  asdcasdcasd asefasdcasdgf asdcasdxcasdf asdfasdc asdfas dcasdfgas dfasd casdfas df asdc asd fasdfc asd fsdsf ssadf"
+    },
+    {
+      "label": "CNC Spring Compression",
+      "category": "used",
+      "description": "description test sadf asdc  asdcasdcasd asefasdcasdgf asdcasdxcasdf asdfasdc asdfas dcasdfgas dfasd casdfas df asdc asd fasdfc asd fsdsf ssadf",
+      "table": {
+        "header": [
+          "Model",
+          "GNC-8HS",
+          "GMF-8E",
+          "GMF-16E",
+          "GMF-28STR",
+          "GNC-23",
+          "GHA-630",
+          "GHA-650",
+          "GHA-680",
+          "GHA-5120",
+          "GHA-5200",
+          "GW-6250",
+          "GW-750",
+          "GW-950"
+        ],
+        "values":[
+          [
+            "Number of Axies",
+            "2",
+            "5",
+            "5",
+            "5",
+            "2",
+            "6",
+            "6",
+            "6",
+            "5 - 8",
+            "5 - 8",
+            "5 - 8",
+            "7",
+            "9"
+          ],
+          [
+            "Wire Diameter",
+            "0,10 - 0,80 mm",
+            "0,13 - 0,80 mm",
+            "0,70 - 1,80 mm",
+            "1,40 - 3,20 mm",
+            "0,80 - 2,80 mm",
+            "1,20 - 3,00 mm",
+            "2,00 - 5,00 mm",
+            "4,00 - 8,00 mm",
+            "6,00 - 12,00 mm",
+            "9,00 - 20,00 mm",
+            "13,00 - 25,00 mm",
+            "2,00 - 5,00 mm",
+            "2,00 - 5,00 mm"
+          ],
+          [
+            "Maximum Spring OD",
+            "20 mm",
+            "20 mm",
+            "40 mm",
+            "50 mm",
+            "50 mm",
+            "70 mm",
+            "90 mm",
+            "160 mm",
+            "200 mm",
+            "250 mm",
+            "300 mm",
+            "110 mm",
+            "110 mm"
+          ],
+          [
+          "Machine Depth",
+          "660 mm",
+          "730 mm",
+          "1250 mm",
+          "1450 mm",
+          "1260 mm",
+          "2050 mm",
+          "2240 mm",
+          "3280 mm",
+          "3360 mm",
+          "4700 mm",
+          "5800 mm",
+          "2240 mm",
+          "2240 mm"
+          ],
+          [
+           "Machine Width",
+           "800 mm",
+           "950 mm",
+           "960 mm",
+           "1120 mm",
+           "1020 mm",
+           "1660 mm",
+           "1660 mm",
+           "2330 mm",
+           "2240 mm",
+           "2200 mm",
+           "2100 mm",
+           "1660 mm",
+           "1660 mm"
+          ],
+          [
+            "Machine Height",
+            "1400 mm",
+            "1400 mm",
+            "1560 mm",
+            "1610 mm",
+            "1540 mm",
+            "2000 mm",
+            "2000 mm",
+            "2060 mm",
+            "2300 mm",
+            "2700 mm",
+            "3000 mm",
+            "2000 mm",
+            "2000 mm"
+          ],
+          [
+            "Machine Weight",
+            "370 kgs",
+            "385 kgs",
+            "690 kgs",
+            "979 kgs",
+            "750 kgs",
+            "2300 kga",
+            "2800 kgs",
+            "5800 kgs",
+            "13000 kgs",
+            "18500 kgs",
+            "30000 kgs",
+            "2900 kgs",
+            "2900 kgs"
+          ]
+        ]
+      }
+    },
+    {
+      "label": "CNC Micro Spring Machine - Compression,Torsion  and Extension springs",
+      "category": "used",
+      "description": "xxxxxxxxx",
+      "table": {
+        "header": [
+          "MODEL",
+          "CT-208",
+          "CT-210"
+        ],
+        "values": [
+          [
+            "Wire Diameter",
+            "0,10 - 0.80 mm",
+            "0,15 - 1,00 mm"
+          ],
+          [
+            "Max OD Diamanter",
+            "0,20 mm",
+            "20 mm"
+          ],
+          [
+            "# of Axes",
+            "2",
+            "2"
+          ],
+          [
+            "Machine Depth",
+            "760 mm",
+            "760 mm"
+          ],
+          [
+            "Machine Width",
+            "880 mm",
+            "880 mm"
+          ],
+          [
+            "Machine height",
+            "1550 mm",
+            "1550 mm"
+          ],
+          [
+            "Machine weight",
+            "300 kgs",
+            "300 kgs"
+          ]
+        ]
+      }
+    },
+    {
+      "label": "CNC Torsion Spring Machine",
+      "category": "new",
+      "description": "nada",
+      "table": {
+        "header": [
+          "MODEL",
+          "TF-310",
+          "TF-320",
+          "TF-330"
+        ],
+        "values": [
+           [
+            "Wine Diamanter ( Steel Wire )",
+            "0,1 - 1,0 mm",
+            "0,4 - 2,0 mm",
+            "1,6 - 3,0 mm"
+           ],
+           [
+            "Max OD Diamanter",
+            "15 mm",
+            "25 mm",
+            "35 mm"
+           ],
+           [
+            "# of Axes",
+            "3",
+            "3",
+            "3"
+           ],
+           [
+            "Machine Depht",
+            "950 mm",
+            "1350 mm",
+            "1480 mm"
+           ],
+           [
+            "Machine Width",
+            "800 mm",
+            "1350 mm",
+            "980 mm"
+           ],
+           [
+            "Machine Height",
+            "1450 mm",
+            "1650 mm",
+            "1750 mm"
+           ],
+           [
+            "Machine Weight",
+            "320 kgs",
+            "850 kgs",
+            "1000 kgs"
+           ],
+           [
+
+           ]
+        ]
+      }
+    },
+    {
+      "label": "CNC Tube Wire Benders",
+      "category": "new",
+      "description": "xxxxxxxxx",
+      "table": {
+        "header": [
+          "Model",
+          "TWB-670",
+          "TWB-680",
+          "TWB-880",
+          "TMB-6100",
+          "TWB-8100",
+          "TWB-6120",
+          "TWB-8120",
+          "OTB-CNC10"
+        ],
+        "values": [
+          [
+            "Metal Wire",
+            "7 mm",
+            "8 mm",
+            "8 mm",
+            "10 mm",
+            "10 mm",
+            "12 mm",
+            "12 mm",
+            "Max. Tube OD",
+            "8,00 mm - can be customized"
+          ],
+          [
+            "Standard Steel SUS304",
+            "6 mm",
+            "7 mm",
+            "7 mm",
+            "8 mm",
+            "8 mm",
+            "10 mm",
+            "10 mm",
+            "Freed Speed",
+            "900 mm / s"
+          ],
+          [
+            "Low Carbon Steel Tube",
+            "D10*1.5T",
+            "D12.7*1.5T",
+            "D12.7*1.5T",
+            "D12.7*3.0T",
+            "D12.7*3.0T",
+            "D12.7*5.0T",
+            "D12.7*5.0T",
+            "Precison",
+            "+/-0,05 mm"
+          ],
+          [
+            "Max. Freed Lenght",
+            "1200 mm / Cain be customized according to customover requirements",
+            "Max. Freed Lenght",
+            "4000 mm - can be customized"
+          ],
+          [
+            "Max. Bend Angle",
+            "+/- 180°",
+            "+/- 180°",
+            "+/- 180°",
+            "+/- 180°",
+            "+/- 180°",
+            "+/- 180°",
+            "+/- 180°",
+            "Max. Bend Angles",
+            "+/- 180°"
+          ],
+          [
+            "Max. Bend Radius",
+            "R40 mm",
+            "R40 mm",
+            "R60 mm",
+            "R60 mm",
+            "R60 mm",
+            "R65 mm",
+            "R65 mm",
+            "Max. Bend Radius",
+            "R40 mm"
+          ],
+          [
+          "Max. # of Bends",
+          "200",
+          "200",
+          "200",
+          "200",
+          "200",
+          "200",
+          "200",
+          "Max. # of Bends",
+          "200"
+          ],
+          [
+            "# of Axes",
+            "6",
+            "6",
+            "8",
+            "6",
+            "8",
+            "6",
+            "8",
+            "# of Axes",
+            "7"
+          ],
+          [
+            "Max. Rotation Angle",
+            "+/- 360°",
+            "+/- 360°",
+            "+/- 360°",
+            "+/- 360°",
+            "+/- 360°",
+            "+/- 360°",
+            "+/- 360°",
+            "Max. Rotation ANgle",
+            "Unlimited"
+          ],
+          [
+            "Machine Dimensions",
+            "2400 mm x 1100 mm x 1500 mm",
+            "Machine Dimensions",
+            "5300 mm x 1100 mm x 1800 mm"
+          ],
+          [
+            "Machine Weight",
+            "1300 kgs",
+            "1700 kgs",
+            "1700 kgs",
+            "1700 kgs",
+            "1700 kgs",
+            "1750 kgs",
+            "1750 kgs",
+            "Machine Weight",
+            "3500 kgs"
+          ]
+        ]
+      }
+    },
+    {
+      "label": "CNC Extension Spring",
+      "description": "nada",
+      "category": "new",
+      "table": {
+        "header": [
+          "MODEL",
+          "EF-210",
+          "EF-620"
+        ],
+        "values": [
+          [
+            "Wire Diamanter ( Steel Wire )",
+            "0,1 - 1,0 mm",
+            "0,6 - 2,0 mm"
+          ],
+          [
+            "Max. OD Diamanter",
+            "12 mm",
+            "20 mm"
+          ],
+          [
+            "# of Axes",
+            "2",
+            "2"
+          ],
+          [
+            "Machine dept",
+            "1310 mm",
+            "1450 mm"
+          ],
+          [
+            "Machine widht",
+            "1070 mm",
+            "1450"
+          ],
+          [
+            "Machine height",
+            "1620 mm",
+            "1800 mm"
+          ]
+        ]
+      }
+    },
+    {
+      "label":"CNC Tension Spring Machine",
+      "description": "nada",
+      "category": "new",
+      "table":{
+        "header": [
+          "MODEL",
+          "LE-208",
+          "LE-210"
+        ],
+        "values": [
+          [
+            "Wire Diamanter ( Steel Wire )",
+            "0,2 -0,8 mm",
+            "0,2-1,0 mm"
+          ],
+          [
+            "Max. OD Diamanter",
+            "20 mm",
+            "20 mm"
+          ],
+          [
+            "# of Axes",
+            "2",
+            "2"
+          ],
+          [
+            "Machine Depht",
+            "760 mm",
+            "760 mm"
+          ],
+          [
+            "Machine Width",
+            "880 mm",
+            "880 mm"
+          ],
+          [
+            "Machine height",
+            "1550 mm",
+            "1550 mm"
+          ]
+        ]
+      }
+    },
+    {
+      "label": "CNC Wave Spring Machine WFS-1 CNC Piston Ring / Wave Spring MachinePR-13 & PR 24",
+      "description": "nada",
+      "category": "new",
+      "table":{
+        "header": [
+          "MODEL",
+          "WSF-1",
+          "PR-13",
+          "PR-24"
+        ],
+        "values": [
+          [
+            "Max OD Diamanter",
+            "4 - 30,0 mm",
+            "15 - 50 mm",
+            "35 - 160 mm"
+
+          ],
+          [
+            "Cross Section Area",
+            "0,75 mm²",
+            "3 mm²",
+            "8 mm²"
+          ],
+          [
+            "Max. Strip Width",
+            "3 mm",
+            "3 mm²",
+            "4 mm"
+          ],
+          [
+            "Max. Strip Thickness",
+            "1 mm",
+            "1 mm",
+            "2 mm"
+          ],
+          [
+            "Machine Depht",
+            "950 mm",
+            "1300 mm",
+            "1700 mm"
+          ],
+          [
+            "Machine Weidht",
+            "800 mm",
+            "950 mm",
+            "980 mm"
+          ],
+          [
+            "Machine height",
+            "1600 mm",
+            "2000 mm",
+            "1800 mm"
+          ],
+          [
+            "Machine Weight",
+            "360 kgs",
+            "900 kgs",
+            "1250 kgs"
+          ]
+        ]
+
+      }
+    },
+    {
+      "label": "CNC Air Coll Winding Machine",
+      "description": "nada",
+      "category": "new",
+      "table": {
+        "header": [
+          "MODEL",
+          "PF-320",
+          "PF-335",
+          "PF-350"
+        ],
+        "valuen": [
+          [
+            "Wire Diamanter ( Steel Wire )",
+            "0,3 - 2,0 mm",
+            "0,4 - 3,5 mm",
+            "1,6 - 5,0 mm"
+          ],
+          [
+            "Max. OD Diamanter",
+            "15 mm",
+            "25 mm",
+            "35 mm"
+          ],
+          [
+            "# of Axes",
+            "3",
+            "3",
+            "3"
+          ],
+          [
+            "Machine Depth",
+            "950 mm",
+            "1350 mm",
+            "1480 mm"
+          ],
+          [
+            "Machine Width",
+            "800 mm",
+            "1350 mm",
+            "980 mm"
+          ],
+          [
+            "Machine Height",
+            "1450 mm",
+            "1650",
+            "1750 mm"
+          ],
+          [
+            "Machine Weight",
+            "320 kgs",
+            "850 kgs",
+            "1000 kgs"
+          ]
+        ]
+
+      }
     }
   ]
 }
