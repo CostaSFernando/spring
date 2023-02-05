@@ -1,26 +1,34 @@
 <div class="container">
-  <app-card *ngFor="let contact of listContacts">
-    <div class="container--contact">
-      <div class="container--contact-flag">
-        <img *ngIf="contact.flag" [src]="contact.flag">
-      </div>
-      <div class="container--contact-address">
-        <span>
-          {{ contact.address }}
-        </span>
-        <span>
-          {{ contact.address2 }}
-        </span>
+  <div class="container--contacts" *ngFor="let contact of listContacts">
+    <app-card>
+      <div class="container--contact">
+        <div class="container--contact-flag">
+          <img *ngIf="contact.flag" [src]="contact.flag">
+        </div>
+        <div class="container--contact-address">
+          <h2>
+            Address
+          </h2>
+          <span>
+            {{ contact.address }}
+          </span>
+          <span>
+            {{ contact.address2 }}
+          </span>
 
+        </div>
+        <div class="container--contact-contact">
+          <h2>
+            Contacts
+          </h2>
+          <span>
+            {{ contact.tel }}
+          </span>
+          <span>
+            {{ contact.mail }}
+          </span>
+        </div>
       </div>
-      <div class="container--contact-contact">
-        <span>
-          {{ contact.tel }}
-        </span>
-        <span>
-          {{ contact.mail }}
-        </span>
-      </div>
-    </div>
-  </app-card>
+    </app-card>
+  </div>
 </div>

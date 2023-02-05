@@ -13,6 +13,6 @@ export class CarouselComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    this.listProducts = [this.products[0], this.products[1], this.products[2]]
+    this.listProducts = [this.products[0], this.products[1], this.products[2], this.products[3], this.products[4]]
   }
 }

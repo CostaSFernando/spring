@@ -3,12 +3,6 @@
     <div class="container--filters">
       <div class="item-filter">
         <span class="title">
-          Product
-        </span>
-        <input type="text" name="label" #labelFilter (keyup)="filterProductsWithCategory(category, labelFilter)">
-      </div>
-      <div class="item-filter">
-        <span class="title">
           Category
         </span>
         <select name="type" #category (change)="filterProductsWithCategory(category, labelFilter)">
@@ -16,6 +10,12 @@
           <option value="new">New</option>
           <option value="used">Used</option>
         </select>
+      </div>
+      <div class="item-filter">
+        <span class="title">
+          Product
+        </span>
+        <input type="text" name="label" #labelFilter (keyup)="filterProductsWithCategory(category, labelFilter)">
       </div>
     </div>
 

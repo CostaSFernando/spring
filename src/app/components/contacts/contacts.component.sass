@@ -3,26 +3,39 @@
   height: 100%
   padding: 20px
   overflow-y: auto
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-evenly
+
+  &--contacts
+    min-width: 400px
+    max-width: 600px
+    width: 100%
 
 .container--contact
   display: flex
-  flex-direction: row !important
+  flex-direction: row
+  flex-wrap: wrap
   justify-content: space-between
 
   &-flag
     margin: 0 20px
+    width: 100%
+    display: flex
+    justify-content: center
     img
       max-width: 200px
   &-address
     height: 100px
-    min-width: 270px
+    width: 48%
     display: flex
     flex-direction: column
     align-items: flex-start
     justify-content: space-evenly
 
   &-contact
-    margin-right: 20px
+    width: 48%
     display: flex
     flex-direction: column
     align-items: flex-start

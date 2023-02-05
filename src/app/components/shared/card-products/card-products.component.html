@@ -6,9 +6,9 @@
       </h2>
     </div>
 
-    <!-- <div class="container--card-content">
+    <div class="container--card-content" *ngIf="product?.description">
       {{ product.description }}
-    </div> -->
+    </div>
     <div class="container--card-footer">
       <div class="card-info" (click)="controlModal(true)">
         Detalhes
