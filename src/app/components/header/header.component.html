@@ -13,7 +13,7 @@
       </div>
       <div class="translate" *ngIf="translations">
         <div class="translate--item" *ngFor="let item of translations">
-          <img [ngClass]="{ 'selected': selectedTranslate(item) }" [src]="'./../../../assets/bandeiras/' + item.img" (click)="selectTranslate(item)">
+          <img [ngClass]="{ 'selected': selectedTranslate(item) }" [src]="'./assets/bandeiras/' + item.img" (click)="selectTranslate(item)">
         </div>
       </div>
     </div>
