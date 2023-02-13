@@ -1,26 +1,4 @@
 <div class="container">
-  <div class="container--filter">
-    <div class="container--filters">
-      <div class="item-filter">
-        <span class="title">
-          Category
-        </span>
-        <select name="type" #category (change)="filterProductsWithCategory(category, labelFilter)">
-          <option value="all">All</option>
-          <option value="new">New</option>
-          <option value="used">Used</option>
-        </select>
-      </div>
-      <div class="item-filter">
-        <span class="title">
-          Product
-        </span>
-        <input type="text" name="label" #labelFilter (keyup)="filterProductsWithCategory(category, labelFilter)">
-      </div>
-    </div>
-
-
-  </div>
   <div class="container--products">
     <ng-container *ngIf="listProducts.length > 0">
       <div class="container--products-product" *ngFor="let product of listProducts">

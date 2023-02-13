@@ -3,6 +3,7 @@
   width: 100%
   padding: var(--padding-margin)
   font-family: var(--font-family)
+  overflow: scroll
   &--filter
     height: 130px
     background: linear-gradient(to bottom right, var(--green-color) 0%,var(--white-color) 30%, var(--white-color) 80%, var(--red-color) 100%)
@@ -44,15 +45,16 @@
 
   &--products
     width: 100%
-    height: calc(100vh - 29vh)
+    height: 100%
     overflow-y: auto
     display: flex
     flex-direction: row
     flex-wrap: wrap
-    justify-content: space-between
+    justify-content: space-evenly
+    overflow: visible
 
     &-product
-      height: 315px
+      height: 260px
       padding: 20px
       min-width: 300px
       width: 100%

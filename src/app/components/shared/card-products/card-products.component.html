@@ -1,21 +1,13 @@
 <div class="container">
   <div class="container--card">
-    <div class="container--card-title">
+    <div class="container--card-title" (click)="showProduct(product.id)">
       <h2>
         {{ product.label }}
       </h2>
     </div>
-
-    <div class="container--card-content" *ngIf="product?.description">
-      {{ product.description }}
-    </div>
     <div class="container--card-footer">
       <div class="card-info" (click)="controlModal(true)">
         Detalhes
-      </div>
-
-      <div class="card-button">
-        Verificar
       </div>
     </div>
   </div>

@@ -372,7 +372,7 @@
       "description": "xxxxxxxxx",
       "table": {
         "header": [
-          "MODEL",
+          "Model",
           "CT-208",
           "CT-210"
         ],
@@ -421,7 +421,7 @@
       "description": "nada",
       "table": {
         "header": [
-          "MODEL",
+          "Model",
           "TF-310",
           "TF-320",
           "TF-330"
@@ -621,7 +621,7 @@
       "category": "new",
       "table": {
         "header": [
-          "MODEL",
+          "Model",
           "EF-210",
           "EF-620"
         ],
@@ -665,7 +665,7 @@
       "category": "new",
       "table":{
         "header": [
-          "MODEL",
+          "Model",
           "LE-208",
           "LE-210"
         ],
@@ -709,7 +709,7 @@
       "category": "new",
       "table":{
         "header": [
-          "MODEL",
+          "Model",
           "WSF-1",
           "PR-13",
           "PR-24"
@@ -774,7 +774,7 @@
       "category": "new",
       "table": {
         "header": [
-          "MODEL",
+          "Model",
           "PF-320",
           "PF-335",
           "PF-350"
