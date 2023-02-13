@@ -12,6 +12,7 @@ import { ProductComponent } from './components/products/product/product.componen
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { CardComponent } from './components/shared/card/card.component';
 import { EventsComponent } from './components/events/events.component';
+import { TableComponent } from './components/shared/table/table.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EventsComponent } from './components/events/events.component';
     ProductComponent,
     ContactsComponent,
     CardComponent,
-    EventsComponent
+    EventsComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

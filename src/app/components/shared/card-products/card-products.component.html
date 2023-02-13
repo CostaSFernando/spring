@@ -29,20 +29,7 @@
       <p>
         {{ product.description }}
       </p>
-      <div class="body--table">
-        <div class="body--table-header">
-          <div class="item" *ngFor="let item of product.table.header">
-            {{ item }}
-          </div>
-        </div>
-        <div class="body--table-body">
-          <div class="row" *ngFor="let row of product.table.values">
-            <div class="item" *ngFor="let item of row">
-              {{ item }}
-            </div>
-          </div>
-        </div>
-      </div>
+      <app-table [table]="product.table"></app-table>
     </div>
   </div>
 

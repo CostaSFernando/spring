@@ -1,0 +1,14 @@
+<div class="body--table" *ngIf="table">
+  <div class="body--table-header">
+    <div class="item" *ngFor="let item of table.header">
+      {{ item }}
+    </div>
+  </div>
+  <div class="body--table-body">
+    <div class="row" *ngFor="let row of table.values">
+      <div class="item" *ngFor="let item of row">
+        {{ item }}
+      </div>
+    </div>
+  </div>
+</div>

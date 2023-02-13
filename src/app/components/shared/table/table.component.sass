@@ -1,0 +1,39 @@
+.body--table
+  margin-top: 20px
+  display: flex
+  flex-direction: column
+  overflow: scroll
+  padding-left: 150px
+
+  .item
+    padding: 10px
+    min-height: 50px
+    min-width: 130px
+    display: flex
+    justify-content: center
+    align-items: center
+    border: 1px solid var(--green-color)
+    box-sizing: content-box
+
+  .item:first-child
+    width: 130px
+    margin-left: -150px
+    background: var(--white-color)
+
+
+  &-header
+    display: flex
+    flex-direction: row
+    box-sizing: content-box
+    overflow: visible
+
+  &-body
+    display: flex
+    flex-direction: column
+    box-sizing: content-box
+    overflow: visible
+
+    .row
+      display: flex
+      flex-direction: row
+      overflow: visible

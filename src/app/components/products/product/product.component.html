@@ -9,5 +9,12 @@
     <div class="container--content-description">
       {{ product.description }}
     </div>
+    <div class="container--content-image" *ngIf="product?.img">
+      <img [src]="'./../../../../assets/machines/' + product.img" alt="">
+    </div>
+  </div>
+
+  <div class="container--table">
+    <app-table [table]="product.table"></app-table>
   </div>
 </div>
