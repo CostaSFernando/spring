@@ -1,4 +1,7 @@
+import { TranslationService } from './../../services/translation.service';
 import { Component, OnInit } from '@angular/core';
+
+const config = require('../../../assets/data/data.json');
 
 @Component({
   selector: 'app-home',
@@ -6,10 +9,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.sass']
 })
 export class HomeComponent implements OnInit {
+  config = config
+  textDescription: string = '';
 
-  constructor() { }
+  constructor(
+    private translationService: TranslationService
+  ) { }
 
   ngOnInit(): void {
+    this.translationService.getSelectedTranslate().subscribe(
+      res => {
+        console.log(this.config);
+        this.textDescription = config.home.description[res.type];
+      }
+    )
   }
 
 }
