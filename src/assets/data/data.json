@@ -4,6 +4,11 @@
       "BR": "Produtos",
       "ESP": "Productos",
       "EUA": "Products"
+    },
+    "contacts": {
+      "BR": "Contatos",
+      "ESP": "Contactos",
+      "EUA": "Contacts"
     }
   },
   "home": {

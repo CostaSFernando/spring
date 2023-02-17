@@ -1,6 +1,7 @@
 import { Itranslate } from './../../interfaces/translate.interface';
 import { Component, OnInit } from '@angular/core';
 import { TranslationService } from 'src/app/services/translation.service';
+const configData = require('../../../assets/data/data.json');
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -9,7 +10,8 @@ import { TranslationService } from 'src/app/services/translation.service';
 export class HeaderComponent implements OnInit {
 
   translations!: Itranslate[];
-  translateItem!: Itranslate
+  translateItem!: Itranslate;
+  config = configData;
 
   constructor(
     private readonly translationService: TranslationService
@@ -27,6 +29,10 @@ export class HeaderComponent implements OnInit {
         this.translateItem = res
       }
     )
+  }
+
+  get buttons(): string[] {
+    return Object.keys(this.config.buttons)
   }
 
   selectTranslate(item: Itranslate) {
