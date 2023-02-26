@@ -19,7 +19,6 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.translationService.getSelectedTranslate().subscribe(
       res => {
-        console.log(this.config);
         this.textDescription = config.home.description[res.type];
       }
     )

@@ -36,7 +36,13 @@ export class ProductComponent implements OnInit, AfterViewChecked {
   }
 
   get getDescription() {
-    return this.product.description[this.translate]? this.product.description[this.translate] : this.product.description['BR']
+    if (this.product?.description && this.product?.description[this.translate]) {
+      return this.product.description[this.translate]
+    } else if (this.product?.description && this.product?.description['BR']) {
+      return this.product.description['BR']
+    } else {
+      return ''
+    }
   }
 
 }

@@ -27,7 +27,13 @@ export class CardProductsComponent implements OnInit {
   }
 
   get getDescription() {
-    return this.product.description[this.translate]
+    if (this.product?.description && this.product?.description[this.translate]) {
+      return this.product.description[this.translate]
+    } else if (this.product?.description && this.product?.description['BR']) {
+      return this.product.description['BR']
+    } else {
+      return ''
+    }
   }
 
   controlModal(status: boolean) {
