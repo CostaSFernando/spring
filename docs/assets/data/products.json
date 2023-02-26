@@ -3,58 +3,160 @@
     {
       "id": 1,
       "label": "CNC camless Multi-Axis Spring Formers",
-      "img": "Camless.png",
+      "images": [
+        "Camless.png",
+        "Camless.png",
+        "Camless.png",
+        "Camless.png",
+        "CNCAirCollWindingMachine.png"
+      ],
       "category": "new",
       "table": {
         "header": [
           "Model",
-          "GNC-8HS",
-          "GMF-8E",
-          "GMF-16E",
-          "GMF-28STR",
-          "GNC-23",
-          "GHA-630",
-          "GHA-650",
-          "GHA-680",
-          "GHA-5120",
-          "GHA-5200",
-          "GW-6250",
-          "GW-750",
-          "GW-950"
-        ],
+          "CMM-10-236",
+          "CMM-12-236R",
+          "CMM-10-400",
+          "CMM-12-420R",
+          "CMM-12-450R",
+          "CMM-12-610 R",
+          "CMM-15-660R",
+          "CMM-12-680 R"
+      ],
         "values": [
           [
-            "Number of Axes",
-            "2",
-            "5",
-            "5",
-            "5",
-            "2",
-            "6",
-            "6",
-            "6",
-            "5 - 8",
-            "5 - 8",
-            "5 - 8",
-            "7",
-            "9"
-          ],
-          [
             "Wire Diameter",
-            "0,10 -0,80 mm",
-            "0,13 - 0,80 mm",
-            "0,70 - 1,80 mm",
-            "1,40 - 3,20 mm",
-            "0,80 - 2,80 mm",
-            "1,20 - 3,00 mm",
-            "2,00 - 5,00 mm",
-            "4,00 - 8,00 mm",
-            "6,00 - 12,00 mm",
-            "9,00 - 20,00 mm",
-            "13,00 - 25,00 mm",
-            "2,00 - 5,00 mm",
-            "2,00 - 5,00 mm"
-          ]
+            "0,30  - 2,30 mm",
+            "0,60 - 2,30 mm",
+            "1,20 - 4,00 mm",
+            "1,20 - 4,0 mm",
+            "1,20 - 4,50 mm",
+            "2,80 - 6,00 mm",
+            "2,80  - 6,00 mm",
+            "3,60 - 8,00 mm"
+        ],
+        [
+            "Maximum Wire Feed",
+            "1000 mm",
+            "1000 mm",
+            "1000 mm",
+            "1000 mm",
+            "1000 mm",
+            "1000 mm",
+            "1000 mm",
+            "1000 mm"
+        ],
+        [
+            "Minimum Wire Feed",
+            "0,01 mm",
+            "0,01 mm",
+            "0,01 mm",
+            "0,01 mm",
+            "0,01 mm",
+            "0,01 mm",
+            "0,01 mm",
+            "0,01 mm"
+        ],
+        [
+            "Maximum Wire Feed Speed",
+            "42 m /min",
+            "28 m / min",
+            "26 m / min",
+            "26 m / min",
+            "30 m / min",
+            "26 m / min",
+            "28 m / min",
+            "28 m / min"
+        ],
+        [
+            "Maximum Wire Feed Lenght",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited",
+            "Unlimited"
+        ],
+        [
+            "Number of Axes",
+            "10 - 15",
+            "12 - 16",
+            "10 - 15",
+            "12 - 16",
+            "12 - 16",
+            "12 - 16",
+            "15 - 24",
+            "12 - 16"
+        ],
+        [
+            "Power",
+            "10 Kw / 220 V",
+            "12,75 Kw / 220 V",
+            "16,2 Kw / 220 V",
+            "20,5 Kw / 220 V",
+            "49,7 Kw / 220 V",
+            "60,6 Kw / 220 V",
+            "85 Kw / 220 V",
+            "52,5 Kw / 220 V"
+        ],
+        [
+            "Air System",
+            "5 - 6 kg / cm²",
+            "5 - 6 kg / cm²",
+            "5 - 6 kg / cm²",
+            "5 - 6 kg / cm²",
+            "5 - 6 kg / cm²",
+            "5 - 6 kg / cm²",
+            "5 - 6 kg / cm²",
+            "5 - 6 kg / cm²"
+        ],
+
+        [
+            "Machine Depth",
+            "1240 mm",
+            "2020 mm",
+            "2150 mm",
+            "2150 mm",
+            "2200 mm",
+            "3470 mm",
+            "3900 mm",
+            "3600 mm"
+        ],
+        [
+            "Machine Width",
+            "1280 mm",
+            "1440 mm",
+            "1900 mm",
+            "1900 mm",
+            "1760 mm",
+            "2200 mm ",
+            "2186 mm",
+            "2220 mm"
+        ],
+        [
+            "Machine Height",
+            "1730 mm",
+            "1800 mm",
+            "2070 mm",
+            "2070 mm",
+            "2100 mm",
+            "2320 mm",
+            "2200 mm",
+            "2310 mm"
+        ],
+        [
+            "MachineWeight",
+            "930 kgs",
+            "1700 kgs",
+            "2500 kgs",
+            "3000 kgs",
+            "3800 kgs",
+            "8700 kgs",
+            "10000 kgs",
+            "7000 Kgs"
+        ]
         ]
       },
       "description": {
@@ -65,58 +167,74 @@
     {
       "id": 2,
       "label": "CNC Cam Wire Spring Formers",
-      "img": "CNCAirCollWindingMachine.png",
+      "images": ["CNCAirCollWindingMachine.png"],
       "category": "new",
       "table": {
         "header": [
           "Model",
-          "GNC-8HS",
-          "GMF-8E",
-          "GMF-16E",
-          "GMF-28STR",
-          "GNC-23",
-          "GHA-630",
-          "GHA-650",
-          "GHA-680",
-          "GHA-5120",
-          "GHA-5200",
-          "GW-6250",
-          "GW-750",
-          "GW-950"
-        ],
+          "GSM-720R",
+          "GSM-720S",
+          "GNC-635RW",
+          "GNC-650RW",
+          "GSM-760S"
+      ],
         "values": [
           [
             "Number of Axes",
             "2",
+            "4",
             "5",
             "5",
-            "5",
-            "2",
-            "6",
-            "6",
-            "6",
-            "5 - 8",
-            "5 - 8",
-            "5 - 8",
-            "7",
-            "9"
-          ],
-           [
+            "5"
+        ],
+        [
             "Wire Diameter",
-            "0,10 -0,80 mm",
-            "0,13 - 0,80 mm",
-            "0,70 - 1,80 mm",
-            "1,40 - 3,20 mm",
-            "0,80 - 2,80 mm",
-            "1,20 - 3,00 mm",
-            "2,00 - 5,00 mm",
-            "4,00 - 8,00 mm",
-            "6,00 - 12,00 mm",
-            "9,00 - 20,00 mm",
-            "13,00 - 25,00 mm",
-            "2,00 - 5,00 mm",
-            "2,00 - 5,00 mm"
-          ]
+            "0,20 - 2,30 mm",
+            "0,20- 2,30 mm",
+            "2,00 - 4,00 mm",
+            "3,00 - 5,00 mm",
+            "2,50 - 6,00 mm"
+        ],
+        [
+            "Maximum Spring OD",
+            "60 mm",
+            "40 mm",
+            "70 mm",
+            "120 mm",
+            "120 mm"
+        ],
+        [
+            "Machine Depth",
+            "850 mm",
+            "2100 mm",
+            "1140 mm",
+            "1180 mm",
+            "2200 mm"
+        ],
+        [
+            "Machine Width",
+            "1500 mm",
+            "1500 mm",
+            "790 mm",
+            "610 mm",
+            "3300 mm"
+        ],
+        [
+            "Machine Height",
+            "1750 mm",
+            "1800 mm",
+            "780 mm",
+            "810 mm",
+            "2300 mm"
+        ],
+        [
+            "Machine Weight",
+            "850 kgs",
+            "1653 kgs",
+            "2700 kgs",
+            "2800 kgs",
+            "6400 kgs"
+        ]
         ]
       },
       "description": {
@@ -127,58 +245,75 @@
     {
       "id": 3,
       "label": "CNC camless Multi-Axis Wire Benders",
-      "img": "Camless.png",
+      "images": ["Camless.png"],
       "category": "new",
       "table": {
         "header": [
           "Model",
-          "GNC-8HS",
-          "GMF-8E",
-          "GMF-16E",
-          "GMF-28STR",
-          "GNC-23",
-          "GHA-630",
-          "GHA-650",
-          "GHA-680",
-          "GHA-5120",
-          "GHA-5200",
-          "GW-6250",
-          "GW-750",
-          "GW-950"
-        ],
+          "CMM-7-1200RB",
+          "CMM-8-600 WB"
+      ],
         "values": [
-            [
-              "Number of Axes",
-              "2",
-              "5",
-              "5",
-              "5",
-              "2",
-              "6",
-              "6",
-              "6",
-              "5 - 8",
-              "5 - 8",
-              "5 - 8",
-              "7",
-              "9"
-            ],
-            [
-              "Wire Diameter",
-              "0,10 -0,80 mm",
-              "0,13 - 0,80 mm",
-              "0,70 - 1,80 mm",
-              "1,40 - 3,20 mm",
-              "0,80 - 2,80 mm",
-              "1,20 - 3,00 mm",
-              "2,00 - 5,00 mm",
-              "4,00 - 8,00 mm",
-              "6,00 - 12,00 mm",
-              "9,00 - 20,00 mm",
-              "13,00 - 25,00 mm",
-              "2,00 - 5,00 mm",
-              "2,00 - 5,00 mm"
-            ]
+          [
+            "Wire Diameter Spring Wire",
+            "6,00 -   9,00 mm ",
+            "2,00 - 4,00 mm"
+        ],
+        [
+            "Wire Diameter Soft Wire",
+            "6,00 - 12,00 mm",
+            "2,50 - 6,00 mm"
+        ],
+        [
+            "Maximum Wire Feed",
+            "1000 mm",
+            "1000 mm"
+        ],
+        [
+            "Minimum Wire Feed",
+            "0,01 mm",
+            "0,01 mm"
+        ],
+        [
+            "Maximum Wire Feed Speed",
+            "23 m /min",
+            "60 m / min"
+        ],
+        [
+            "Maximum Wire Feed Lenght",
+            "Unlimited",
+            "Unlimited"
+        ],
+        [
+            "Number of Axes",
+            "7",
+            "8"
+        ],
+        [
+            "Power",
+            "23 Kw / 220 V",
+            "20 Kw / 220 V"
+        ],
+        [
+            "Machine Depth",
+            "3043 mm",
+            "3039 mm"
+        ],
+        [
+            "Machine Width",
+            "1600 mm",
+            "1400 mm"
+        ],
+        [
+            "Machine Height",
+            "1900 mm",
+            "1700 mm"
+        ],
+        [
+            "Machine Weight",
+            "3000 kgs",
+            "4500 kgs"
+        ]
         ]
       },
       "description": {
@@ -189,58 +324,40 @@
     {
       "id": 4,
       "label": "Universal Spring Compression",
-      "img": "CNCAirCollWindingMachine.png",
+      "images": ["CNCAirCollWindingMachine.png"],
       "category": "new",
       "table": {
         "header": [
-          "Model",
-          "GNC-8HS",
-          "GMF-8E",
-          "GMF-16E",
-          "GMF-28STR",
-          "GNC-23",
-          "GHA-630",
-          "GHA-650",
-          "GHA-680",
-          "GHA-5120",
-          "GHA-5200",
-          "GW-6250",
-          "GW-750",
-          "GW-950"
+          "Model | Decoiler",
+          "C410 PG | JYF-S100",
+          "C410 PG | JYF-S100",
+          "C416 PG | JYF-S100",
+          "C423 PG | JYF-S300",
+          "C428 PG | JYF-S300",
+          "C435 PG | JYF-S300",
+          "C440 PG | JYF-400",
+          "C523 PG | JYF-S300",
+          "C640 PG | JYF-S400",
+          "C660 PG | JYF-S400",
+          "C580 PG | JYF-S1000",
+          "C690 PG | JYF-S1000",
+          "JYF-C6160 | JYF-S2000",
+          "JYF-C6200 | JYF-S2000"
         ],
         "values": [
-          [
-            "Number of Axes",
-            "2",
-            "5",
-            "5",
-            "5",
-            "2",
-            "6",
-            "6",
-            "6",
-            "5 - 8",
-            "5 - 8",
-            "5 - 8",
-            "7",
-            "9"
-          ],
-          [
-            "Wire Diameter",
-            "0,10 -0,80 mm",
-            "0,13 - 0,80 mm",
-            "0,70 - 1,80 mm",
-            "1,40 - 3,20 mm",
-            "0,80 - 2,80 mm",
-            "1,20 - 3,00 mm",
-            "2,00 - 5,00 mm",
-            "4,00 - 8,00 mm",
-            "6,00 - 12,00 mm",
-            "9,00 - 20,00 mm",
-            "13,00 - 25,00 mm",
-            "2,00 - 5,00 mm",
-            "2,00 - 5,00 mm"
-          ]
+          ["Number of Axes","4","4","4","4","4","4","5","6","6","6","5","6","6","6"  ],
+          ["Wire Diameter","0,20 - 1,00 mm","0,20 - 1,00 mm","0,4  - 1,60 mm","0,5 - 2,30 mm","0,8 - 2,80 mm","1,20 - 3,50 mm","1,60 - 4,00 mm","0,50 - 2,30 mm","1,60 - 4,00 mm","2,50 - 6,00 mm","3,00 - 8,00 mm","4,00 - 9,00 mm","8,00 - 16,00 mm","10,00 - 20,00 mm"  ],
+          ["Minimum Wire Feed","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm","0,01 mm"  ],
+          ["Maximum Wire Feed Speed","149 m / min","150 m / min","150 m / min","120 m / min","95 m / min","120 m / min","90 m / min","120 m / min","90 m / min","90 m / min","80 m / min","130/65* m / min","50 m / min","45 m / m"  ],
+          ["Maximum Pitch Speed","600 rpm","800 rpm","800 rpm","800 rpm","250 rpm","500 rpm","500 rpm","800 rpm","500 rpm","150 rpm","150 rpm","1200 rpm","60 rpm","60 rpm"  ],
+          ["Maximum Cutter Speed","600 rpm","800 rpm","800 rpm","800 rpm","250 rpm","500 rpm","500 rpm","800 rpm","500 rpm","150 rpm","150 rpm","1200 rpm","60 rpm","60 rpm"  ],
+          ["Maximum OD Speed","200 rpm","200 rpm","200 rpm","200 rpm","200 rpm","200 rpm","150 rpm","250 rpm","100 rpm","150 rpm","500 rpm","500 rpm","100 rpm","100 rpm"  ],
+          ["Maximum Spring OD","24 mm","25 mm","30 mm","50 mm","60 mm","60 mm","70 mm","60 mm","90 mm","120 mm","120 mm","140 mm","250 mm","280 mm"  ],
+          ["Power","4 Kw / 220 V","4,4 Kw / 220 V","7 Kw / 220 V","9,3 Kw / 220 V","8,7 Kw / 220 V","10,5 Kw / 220 V","17,5 Kw / 220 V","10,8 Kw / 220 V","30,4 Kw / 220 V","29,6 Kw / 220 V","49,2 Kw / 220 V","53,7 Kw / 220 V","89 Kw / 220 V","111 Kw / 220 V"  ],
+          ["Machine Depth","800 mm","800 mm","900 mm","1100 mm","1170 mm","1170 mm","1450 mm","1150 mm","1510 mm","1560 mm","1440 mm","1800 mm","3000 mm","3000 mm"  ],
+          ["Machine Width","1100 mm","1100 mm","1100 mm","1380 mm","1600 mm","1600 mm","1900 mm","1400 mm ","1950 mm","2150 mm","2320 mm","2550 mm","4500 mm","4500 mm"  ],
+          ["Machine Height","1500 mm","1500 mm","1500 mm","1700 mm","1800 mm","1800 mm","1920 mm","1800 mm","2020 mm","2350 mm","2400 mm","2350 mm","3300 mm","3000 mm"  ],
+          ["Machine Weight","500 kgs","530 kgs","680 kgs","1100 kgs","1200 kgs","1250 kgs","2500 kgs","1200 kgs","2850 kgs","4000 Kgs","7000 Kgs","7500 Kgs","23000 Kgs","25000 Kgs"  ]
         ]
       },
       "description": {
@@ -251,7 +368,7 @@
     {
       "id": 5,
       "label": "CNC Spring Compression",
-      "img": "CNCAirCollWindingMachine.png",
+      "images": ["CNCAirCollWindingMachine.png"],
       "category": "used",
       "description": {
         "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
@@ -394,7 +511,10 @@
       "id": 6,
       "label": "CNC Micro Spring Machine - Compression,Torsion  and Extension springs",
       "category": "used",
-      "img": "Camless.png",
+      "images": [
+        "Camless.png",
+        "CNCAirCollWindingMachine.png"
+      ],
       "description": {
         "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
@@ -447,7 +567,7 @@
     {
       "id": 7,
       "label": "CNC Torsion Spring Machine",
-      "img": "CNCTorsionSpringMachine.png",
+      "images": ["CNCTorsionSpringMachine.png"],
       "category": "new",
       "description": {
         "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
@@ -512,7 +632,7 @@
     {
       "id": 8,
       "label": "CNC Tube Wire Benders",
-      "img": "CNCTubeWire.png",
+      "images": ["CNCTubeWire.png"],
       "category": "new",
       "description": {
         "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
@@ -528,6 +648,7 @@
           "TWB-8100",
           "TWB-6120",
           "TWB-8120",
+          "OTB-CNC10",
           "OTB-CNC10"
         ],
         "values": [
@@ -569,6 +690,12 @@
           ],
           [
             "Max. Freed Lenght",
+            "1200 mm / Cain be customized according to customover requirements",
+            "1200 mm / Cain be customized according to customover requirements",
+            "1200 mm / Cain be customized according to customover requirements",
+            "1200 mm / Cain be customized according to customover requirements",
+            "1200 mm / Cain be customized according to customover requirements",
+            "1200 mm / Cain be customized according to customover requirements",
             "1200 mm / Cain be customized according to customover requirements",
             "Max. Freed Lenght",
             "4000 mm - can be customized"
@@ -636,6 +763,12 @@
           [
             "Machine Dimensions",
             "2400 mm x 1100 mm x 1500 mm",
+            "2400 mm x 1100 mm x 1500 mm",
+            "2400 mm x 1100 mm x 1500 mm",
+            "2400 mm x 1100 mm x 1500 mm",
+            "2400 mm x 1100 mm x 1500 mm",
+            "2400 mm x 1100 mm x 1500 mm",
+            "2400 mm x 1100 mm x 1500 mm",
             "Machine Dimensions",
             "5300 mm x 1100 mm x 1800 mm"
           ],
@@ -657,7 +790,7 @@
     {
       "id": 9,
       "label": "CNC Extension Spring",
-      "img": "Camless.png",
+      "images": ["Camless.png"],
       "description": {
         "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
@@ -706,7 +839,7 @@
     {
       "id": 10,
       "label":"CNC Tension Spring Machine",
-      "img": "CNCTubeWire.png",
+      "images": ["CNCTubeWire.png"],
       "description": {
         "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
@@ -759,7 +892,7 @@
         "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       },
-      "img": "Camless.png",
+      "images": ["Camless.png"],
       "category": "new",
       "table":{
         "header": [
@@ -825,7 +958,7 @@
     {
       "id": 12,
       "label": "CNC Air Coll Winding Machine",
-      "img": "CNCAirCollWindingMachine.png",
+      "images": ["CNCAirCollWindingMachine.png"],
       "description": {
         "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
@@ -838,7 +971,7 @@
           "PF-335",
           "PF-350"
         ],
-        "valuen": [
+        "values": [
           [
             "Wire Diamanter ( Steel Wire )",
             "0,3 - 2,0 mm",
@@ -883,6 +1016,288 @@
           ]
         ]
 
+      }
+    },
+    {
+      "id": 13,
+      "category": "new",
+      "description": {},
+      "images": [],
+      "label": "Multi Forming Machine Mechanical Type",
+      "table": {
+        "header": [
+          "MODEL",
+          "GSM-10T",
+          "GSM-26T",
+          "GSM-30T",
+          "GSM-36T",
+          "GSM-38T"
+        ],
+        "values": [
+          [
+            "Wire Diameter",
+            "0,1 - 1,00 mm",
+            "0,6 - 2,5 mm",
+            "0,6 - 3,00 mm",
+            "0,6 - 3,20 mm",
+            "1,5 - 5,00 mm"
+          ],
+          [
+            "Max Width Strip",
+            "10,00 mm",
+            "30,00 mm",
+            "30,00 mm",
+            "30,00 mm",
+            "50,00 mm"
+          ],
+          [
+            "Strip Thickness",
+            "0,04 - 0,50 mm",
+            "0,30 - 1,20 mm",
+            "0,30 - 1,20",
+            "0,30 - 1,50",
+            "0,8 - 2,00 mm"
+          ],
+          [
+            "Hardness of Strip (Carbon)",
+            "80C",
+            "80C",
+            "80C",
+            "80C",
+            "80C"
+          ],
+          [
+            "Max.Feed Lenght",
+            "150 mm",
+            "200 mm",
+            "200 mm",
+            "200 mm",
+            "320 mm"
+          ],
+          [
+            "Max. Production Rate",
+            "250 ppm",
+            "200 ppm",
+            "200 ppm",
+            "250 ppm",
+            "150 ppm"
+          ],
+          [
+            "Press Capacity",
+            "1,5 Tons",
+            "10 Tons",
+            "12 Tons",
+            "15 Tons",
+            "30 Tons"
+          ],
+          [
+            "Slide Capacity",
+            "0,4 Tons",
+            "1,5 Tons",
+            "1,5 Tons",
+            "2,5 Tons",
+            "6,5 Tons"
+          ],
+          [
+            "Press Stroke",
+            "8 mm",
+            "12 mm",
+            "12 mm",
+            "16 mm",
+            "16 mm"
+          ],
+          [
+            "Slide Stroke",
+            "20 mm",
+            "37 mm",
+            "33 mm",
+            "37 mm",
+            "42 mm"
+          ],
+          [
+            "Power",
+            "2,2 Kw",
+            "3,7 Kw",
+            "2,3 Kw",
+            "5,0 Kw",
+            "7,7 Kw"
+          ],
+          [
+            "Machine Depth",
+            "1300 mm",
+            "2000 mm",
+            "1800 mm",
+            "2100 mm",
+            "3330 mm"
+          ],
+          [
+            "Machine Width",
+            "900 mm",
+            "990 mm",
+            "800 mm",
+            "990 mm",
+            "1600 mm"
+          ],
+          [
+            "Machine Height",
+            "1800 mm",
+            "1900 mm",
+            "1850 mm",
+            "1900 mm",
+            "2300 mm"
+          ],
+          [
+            "Machine Weight",
+            "700 kgs",
+            "2100 kgs",
+            "1200 kgs",
+            "2500 kgs",
+            "6500 kgs"
+          ]
+        ]
+      }
+
+    },
+    {
+      "id": 14,
+      "label": "Multi Forming Machine CNC Type",
+      "category": "new",
+      "images": [],
+      "table": {
+        "header": [
+          "MODEL",
+          "GSC-10T",
+          "GSC-26T",
+          "GSM-26TP",
+          "GSM-38T",
+          "GSM-39T",
+          "GSM-36TW"
+        ],
+        "values": [
+          ["Wire Diameter","0,1 - 1,00 mm","0,6 - 2,5 mm","0,6 - 2,50 mm","1,5 - 5,00 mm","1,5 - 6,5 mm","06 - 2,5 mm"  ],
+          ["Max Width Strip ","10,00 mm"," 30,00 mm"," 30,00 mm","50,00 mm","60 mm","30 mm"  ],
+          ["Strip Thickness","0,04 - 0,50 mm","0,30 - 1,20 mm","0,30 - 1,20 mm ","0,80 - 2,00 mm","0,80 - 3,00 mm","0,30 - 1,20 mm"  ],
+          ["Hardness of Strip ( Carbon)","80C","80C","80C","80C","80C","80C"  ],
+          ["Max.Feed Lenght","Unlimited","Unlimited","Unlimited","Unlimited","Unlimited","Unlimited"  ],
+          ["Max. Production Rate","250 ppm","200 ppm","200 ppm","150 ppm","150 ppm","200 ppm"  ],
+          ["Press Capacity","1,5 Tons","10 Tons","20 Tons","30 Tons","40 Tons","20 Tons"  ],
+          ["Slide Capacity","0,4 Tons","1,5 Tons","1,5 Tons","6,5 Tons","8 Tons","1,5 Tons"  ],
+          ["Press Stroke","8 mm","12 mm","12 mm","16 mm","40 mm","12 mm"  ],
+          ["Slide Stroke","20 mm","37 mm","37 mm","42 mm","60 mm","37 mm"  ],
+          ["Power","2,25 Kw","9 Kw","9 Kw","13 Kw","27 Kw","5,25 Kw"  ],
+          ["Machine Depth","1300 mm","2250 mm ","2550 mm","3000 mm","3500 mm","2100 mm"  ],
+          ["Machine Width","900 mm","990 mm","990 mm","900 mm","1800 mm","1000 mm"  ],
+          ["Machine Height","1800 mm","1800 mm","1800 mm","1900 mm","2350 mm","1800 mm"  ],
+          ["Machine Weight","700 kgs","2500 kgs","2900 kgs","4300 kgs","6800 kgs","1200 kgs"  ]
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "category": "new",
+      "images": [],
+      "label": "Garter Spring Jointing Machine",
+      "table": {
+        "header": [
+          "MODEL",
+          "SJ-101B",
+          "SJ-101C",
+          "SJ-102B",
+          "SJ-102C",
+          "SJ-103A",
+          "SJ-103B",
+          "SJ-103C"
+        ],
+        "values":[
+          ["OD ","1.0 - 3.5 m / m","1.0 - 3.5 m / m","1.0 - 3.5 m / m","1.0 - 3.5 m / m","1.5 - 4.0 m / m","1.2 - 2.0 m / m","1.5 - 4.0 m / m"  ],
+          ["Lenght ","80 - 135 mm","80 - 135 mm","20 - 100 mm","20 - 100 mm","80 - 230 mm","45 - 180 m / m","80 - 300 m / m"  ],
+          ["Jointing Speed","40 - 80 pcs / min","40 - 80 pcs / min","40 - 80 pcs / min","40 - 80 pcs / min","40 - 60 pcs / min","40 - 60 pcs / min","40 - 60 pcs / min"  ],
+          ["Control","PLC Touch Screen ","Electric & Air","PLC Touch Screen ","Electric & Air","PLC Touch Screen ","PLC Touch Screen ","PLC Touch Screen "  ],
+          ["Mov Type","Cam","Cam","Cam","Cam","Cam","Cam","Cam"  ],
+          ["Power ","200 W DC","200 W DC","200 W DC","200 W DC","2000 W AC","2000 W AC","2000 W AC"  ],
+          ["Weight ","","","","","","",""  ],
+          ["Machine Lenght","800 mm","1200 mm","1450 mm"," 1200 mm"," 1530 mm"," 1530 mm"," 1530 mm"  ],
+          ["Machine Width","1000 mm","1000 mm","1000 mm","1000 mm","920 mm","920 mm","920 mm"  ],
+          ["Machine Height","1450 mm","1200 mm","1450 mm","1200 mm","1530 mm","1530 mm","1530 mm"  ],
+          ["","350 kgs","330 kgs","340 kgs","310 kgs","600 kgs","600 kgs","680 kgs"  ]
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "images": [],
+      "label": "CNC Spring Ends Grinder",
+      "table": {
+        "header": [
+          "MODEL",
+          "G-300S",
+          "G-300",
+          "G-450",
+          "G-660",
+          "G-915"
+        ],
+        "values": [
+          ["Number of Axes","1","2","2","2","2"  ],
+          ["Wire Capacity","0,5 -  0,30 mm","0,5 - 0,30 mm","2,0 - 8,0 mm","4,0 - 12,00 mm","6,0 - 20,00 mm"  ],
+          ["Max. OD","35 mm","35 mm","60 mm","80 mm","200 mm"  ],
+          ["Spring Lenght","11 -200 mm","10 -200 mm","20 - 300 mm","30 - 320 mm","50 - 240 mm"  ],
+          ["Stone OD","305mm","305 mm","450 mm","660 mm","915 mm"  ],
+          ["Stone ID","150 mm","125 mm","100 mm","150 mm","200 mm"  ],
+          ["Stone Thickness","65 mm","65 mm","65 mm ","90 mm","120 mm"  ],
+          ["Stone Qty","2","2","2","2","2"  ],
+          ["Lenght","2000 mm","2000 mm","2200 mm","2840 mm","3200 mm"  ],
+          ["Width","1900 mm","1900 mm","2200 mm","2500 mm","2950 mm"  ],
+          ["Height","2330 mm","2330 mm","2600 mm","2900 mm","3650 mm"  ],
+          ["Weight","3000 kgs","3000 kgs","5200 kgs","6500 kgs","8500 kgs" ]
+        ]
+      }
+
+    },
+    {
+      "id": 17,
+      "category": "new",
+      "images": [],
+      "label": "Wire Straightening & Cutting Machine",
+      "table": {
+        "header": [
+          "MODEL",
+          "GWS - 103",
+          "GWS - 104",
+          "GWS - 105",
+          "GWS - 106"
+        ],
+        "values": [
+          ["Wire Capacity","1,5 - 3,0 mm","2,5 - 5,0 mm","4,0 - 8,0 mm","6,0 - 10,0 mm"  ],
+          ["Cutting Lenght","50 -2400 mm","50 - 3000 mm","50 - 3000 mm","50 - 3000 mm"  ],
+          ["Machine Depth","1400 mm","1530 mm","1780 mm","2420 mm"  ],
+          ["Machine Width","770 mm","770 mm","620 mm","1220 mm"  ],
+          ["Machine Height","1270 mm","1270 mm","1530 mm","1530 mm"  ],
+          ["MachineWeight","260 kgs","320 kgs","500 kgs","750 kgs"  ],
+          ["Power","2,2 Kw","3 Kw","5,3 Kw","7,5 Kw"  ]
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "category": "new",
+      "images": [],
+      "label": "Special Mold Heading Machine ",
+      "table": {
+        "header": ["MODEL","GP/ODH5X75"],
+        "values": [
+          ["Feeding Mechanism","Feeding Vibrator (Single Direction, A, B, or C type depends on actual products.)"  ],
+          ["Forging Load","20000 kgs"  ],
+          ["Max.Wire Diameter","3 - 5 mm"  ],
+          ["Max.Blank Lenght","25 - 75 mm"  ],
+          ["Punch Hole","31 mm"  ],
+          ["Output Rate","50 - 90 pcs / m"  ],
+          ["Auto Feeding Lenght","25 - 75 mm"  ],
+          ["Power ","2,3 Kw"  ],
+          ["Machine Depth","1700 mm"  ],
+          ["Machine Width","1055 mm"  ],
+          ["Machine Height","1000 mm"  ],
+          ["Machine Weight","2100 kgs"  ]
+        ]
       }
     }
   ]
