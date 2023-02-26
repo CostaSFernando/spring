@@ -9,8 +9,10 @@
     <div class="container--content-description">
       {{ getDescription }}
     </div>
-    <div class="container--content-image" *ngIf="product?.img">
-      <img [src]="'./assets/machines/' + product.img" alt="">
+    <div class="container--content-image" *ngIf="product?.images?.length > 0">
+      <div class="image" *ngFor="let img of product.images">
+        <img [src]="'./assets/machines/' + img" alt="">
+      </div>
     </div>
   </div>
 
