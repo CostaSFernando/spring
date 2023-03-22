@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-carousel',
@@ -7,12 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
 
-  private products = (require('../../../assets/data/products.json')).products;
-  listProducts: any
+  @Input() imagesList: any[] = [];
 
   constructor() {}
 
   ngOnInit(): void {
-    this.listProducts = [this.products[0], this.products[1], this.products[2], this.products[3], this.products[4]]
+  }
+
+  adjustImage(e: WheelEvent) {
+    const action = e.deltaY < 0 ? 'up' : 'down';
+    const container = e?.target ? e.target : {} as any;
+
+    if (action === 'up') {
+      this.previousImage(container)
+    } else if (action === 'down') {
+      this.nextImage(container)
+    }
+  }
+
+  nextImage(images: HTMLElement) {
+    images.scrollBy(300, 0);
+  }
+
+  previousImage(images: HTMLElement) {
+    images.scrollBy(-300, 0);
   }
 }

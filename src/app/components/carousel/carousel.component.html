@@ -1,5 +1,7 @@
-<div class="container" *ngIf="listProducts.length > 1">
-  <div class="container--card" *ngFor="let product of listProducts">
-    <app-card-products [product]="product"></app-card-products>
+<div class="container" *ngIf="imagesList.length > 0">
+  <div class="container--images" #images (wheel)="adjustImage($event)">
+    <div class="image" *ngFor="let img of imagesList"> <img [src]="img" alt=""> </div>
   </div>
+
+
 </div>

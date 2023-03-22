@@ -2,7 +2,7 @@
   <div class="container--card">
     <div class="container--card-title" (click)="showProduct(product.id)">
       <h2>
-        {{ product.label }}
+        {{ getLabel }}
       </h2>
     </div>
   </div>
@@ -16,7 +16,7 @@
         X
       </div>
       <div class="label">
-        {{ product.label }}
+        {{ getLabel }}
       </div>
     </div>
 

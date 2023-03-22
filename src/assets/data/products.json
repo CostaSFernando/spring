@@ -2,18 +2,30 @@
   "products": [
     {
       "id": 1,
-      "label": "CNC camless Multi-Axis Spring Formers",
+      "label": {
+        "BR": "CNC Multi Eixos Sem Cames Formadora de Molas",
+        "EUA": "CNC Camless Multi-Axis Spring Former",
+        "ESP": "CNC Multi Eje Sin Levas Formadora de Resortes"
+      },
       "images": [
-        "Camless.png",
-        "Camless.png",
-        "Camless.png",
-        "Camless.png",
-        "CNCAirCollWindingMachine.png"
+        "./assets/machines/01 CNC Camless Multi-Axis Spring Former/01 CMM-10-236.jpg",
+        "./assets/machines/01 CNC Camless Multi-Axis Spring Former/02 CMM-12-236R.jpg",
+        "./assets/machines/01 CNC Camless Multi-Axis Spring Former/03 CMM-10-400.jpg",
+        "./assets/machines/01 CNC Camless Multi-Axis Spring Former/04 CMM-12-420R.jpg",
+        "./assets/machines/01 CNC Camless Multi-Axis Spring Former/05 CMM-12-450R.jpg",
+        "https://i0.wp.com/vinstonus.com/wp-content/uploads/2018/06/610r.jpg?resize=768%2C551&ssl=1",
+        "https://i0.wp.com/vinstonus.com/wp-content/uploads/2018/05/660r2.jpg?resize=768%2C513&ssl=1",
+        "./assets/machines/01 CNC Camless Multi-Axis Spring Former/08 CMM-12-680R.jpg"
+
       ],
       "category": "new",
       "table": {
         "header": [
-          "Model",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "CMM-10-236",
           "CMM-12-236R",
           "CMM-10-400",
@@ -22,7 +34,7 @@
           "CMM-12-610 R",
           "CMM-15-660R",
           "CMM-12-680 R"
-      ],
+        ],
         "values": [
           [
             "Wire Diameter",
@@ -34,8 +46,8 @@
             "2,80 - 6,00 mm",
             "2,80  - 6,00 mm",
             "3,60 - 8,00 mm"
-        ],
-        [
+          ],
+          [
             "Maximum Wire Feed",
             "1000 mm",
             "1000 mm",
@@ -160,24 +172,33 @@
         ]
       },
       "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "BR": "Servo Alimentador - Arame rotativo - Mandril rotativo - Arame rotativo 8 Servo Deslizantes**  Deslizamento X-Y - (tecnologia Free-arm que permite o movimento de uma lâmina de corte em um plano X-Y) O projeto especial sem cames, equipado com a tecnologia de braço livre VINSTON, nos permite oferecer uma gama de máquinas para fabricar facilmente uma variedade de molas e formas de arame. formulários de arame. Utiliza guias duplas de deslizamento para facilitar a precisão final nos movimentos de deslizamento. O suporte duplo de dobra e a adição de braços livres de x-y acrescentam versatilidade à configuração da máquina. Um sistema robusto de hardware facilita a produção ininterrupta e as curvas e os lançamentos precisos. Uma interface de usuário intuitiva e uma sólida estrutura de engenharia de software garantem um ambiente estável. ** Alguns dispositivos opcionais não estão incluídos na configuração básica.",
+        "ESP": "Servo alimentador - Alambre Rotativo - Mandril Rotativo - Rotador de alambre 8 Servos Deslizantes  ** Deslizante X-Y -  (Tecnología de brazo libre que permite a una lámina de corte moverse en un plano X –Y) Diseño especial sin levas, equipada con tecnología VINSTON de brazos libres, que nos permite ofrecer una serie de máquinas para fabricar fácilmente variedad de resortes y formas de alambre. Utiliza dobles guías correderas para facilitar la precisión final en los movimientos deslizantes. Apoyo de dobladores dobles y la añadidura de brazos libres en x-y, agregan versatilidad a la puesta a punto de la máquina. Un sistema de hardware sólido facilita la producción ininterrumpida y dobleces y paso precisos. Una intuitiva interface de usuario y una sólida estructura de ingeniería de software asegura un ambiente estable. ** Algunos dispositivos opcionales no están incluidos en la configuración básica",
+        "EUA": "Servo Feed  - Rotary Wire - Rotary Quill = Single Spinner - 8 Servo Slides ** X-Y Slide (X-Y lateral slide moves perpendicular to servo slide with a 2.5mm maximum wire limit) A special Camless design equipped with VINSTON’S free arm technology that enables our series of spring machines to easily produce a variety of springs and wire forms. Utilizes double rail guides to facilitate lasting accuracy on slide movements. Support of dual spinners provides versatility on various applications. A solid hardware system facilitates uninterrupted production and precision bends and pitch. An intuitive user interface and a solid hardware engineering structure ensure a stable environment. ** Some optional devices are not included in the basic configuration."
       }
     },
     {
       "id": 2,
-      "label": "CNC Cam Wire Spring Formers",
-      "images": ["CNCAirCollWindingMachine.png"],
+      "label": {
+        "BR": "Máquina CNC Com Cames Formadora de Molas",
+        "ESP": "Máquina CNC Com Levas Formadora de Resortes",
+        "EUA": "CNC Cam Wire Spring Former"
+      },
+      "images": [],
       "category": "new",
       "table": {
         "header": [
-          "Model",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "GSM-720R",
           "GSM-720S",
           "GNC-635RW",
           "GNC-650RW",
           "GSM-760S"
-      ],
+        ],
         "values": [
           [
             "Number of Axes",
@@ -238,21 +259,30 @@
         ]
       },
       "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "BR": "Porta USB Controle de servos modo MS e modo CNC ENSINO editar Controle prioritário Tempo programável de pausa/duração Velocidade de corrida programável Configuração angular disponível para Cam, Quill e Servo Spinner Ajuste das voltas disponíveis para o Servo Spinner Servocontrolador opcional, estação de gancho, etc.",
+        "ESP": "Puerta USB Servocontrol modo MS y modo CNC Edición TEACH Control de prioridad Tiempo/duración de pausa programable Velocidad de jog programable Ajuste de ángulo disponible para leva, fresa y servohusillo Ajuste de vueltas disponible para Servo Spinner Servohusillo opcional, estación de gancho, etc.",
+        "EUA": "USB port Servo control MS mode and CNC mode TEACH edit Priority control Programmable pause timing/duration Programmable jogging speed Angle setting available for Cam, Quill and Servo Spinner Turns setting available for Servo Spinner Optional servo spinner, hook station, etc."
       }
     },
     {
       "id": 3,
-      "label": "CNC camless Multi-Axis Wire Benders",
-      "images": ["Camless.png"],
+      "label": {
+        "BR": "Dobradora de Arame CNC Multi Eixos Sem Cames",
+        "ESP": "Dobladora de Alambres CNC Multi Ejes Sin Levas",
+        "EUA": "CNC Camless Multi-Axis Wire Bender"
+      },
+      "images": ["./assets/machines/03 CNC Camless Multi-Axis Wire Benders/VINSTON CMM-7-1200RB(1).jpg", "./assets/machines/03 CNC Camless Multi-Axis Wire Benders/VINSTON CMM-7-1200RB(1)"],
       "category": "new",
       "table": {
         "header": [
-          "Model",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "CMM-7-1200RB",
           "CMM-8-600 WB"
-      ],
+        ],
         "values": [
           [
             "Wire Diameter Spring Wire",
@@ -317,32 +347,41 @@
         ]
       },
       "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "BR": "Arame rotativo Alimentador de servos Eixo do rotor de arame para cima/para baixo Eixo Mesa UP/DOWN Rotador de arame duplo Deslizador de estabilizador de fio Servo de corte Utiliza guias de trilhos duplos e sistema de engrenagem de linha rotativa para cada servo deslizamento para garantir precisão e torque ideal. Suporta até 4,0mm de arame de mola e 6,0mm de arame mole. Um sólido sistema de engrenagens facilita a produção ininterrupta e curvas e formas precisas. A arquitetura da máquina fornece um sistema automático de detecção e aviso de falhas. Suporte multilíngue e software de fácil utilização. A combinação perfeita de um Formadora Dobradora Híbrida e uma Dobradora.",
+        "ESP": "Alambre Rotativo Servo alimentador Rotador de alambre ARRIBA/ABAJO eje Messa ARRIBA/ABAJO eje Rotador de alambre doble Deslizador de estabilizadora de alambre Servo Cortador Utiliza guías de los rieles dobles y girando sistema de engranajes de línea para cada diapositiva servo para asegurar la precisión y el par óptimo. Soporta hasta 4.0 mm alambre de resorte y 6.0 mm de alambre suave. Una sistema de los equipos sólida facilita la producción ininterrumpida y curvas precisas y formas. Arquitectura de la máquina proporciona la detección de fallos automática y sistema de alerta . Soporte multi-idioma y el software fácil de usar. La combinación perfecta de uma Multi Formadora Híbrida y uma Dobladora.",
+        "EUA": "Rotary Wire Servo Feed Spinner UP/DOWN axis Table UP/DOWN axis Duo Spinner Wire stabilizer slide Servo Cutter Utilizes double rail guides and rotary dial for each servo slide to ensure accuracy and sufficient torque. Supports up to 4.0 mm spring wire and 6.0 mm soft wire. A solid hardware system facilitates uninterrupted production and precise bends and forms. Machine architecture provides automatic fault detection and warning system. Multi-language support and user-friendly software. A great entry model for a hybrid wire former and bender."
       }
     },
     {
       "id": 4,
-      "label": "Universal Spring Compression",
-      "images": ["CNCAirCollWindingMachine.png"],
+      "label": {
+        "BR": "Molas de Compressão",
+        "ESP": "Dobladora de Alambres CNC Multi Ejes Sin Levas",
+        "EUA": "Universal Compression Spring"
+      },
+      "images": [],
       "category": "new",
       "table": {
         "header": [
-          "Model | Decoiler",
-          "C410 PG | JYF-S100",
-          "C410 PG | JYF-S100",
-          "C416 PG | JYF-S100",
-          "C423 PG | JYF-S300",
-          "C428 PG | JYF-S300",
-          "C435 PG | JYF-S300",
-          "C440 PG | JYF-400",
-          "C523 PG | JYF-S300",
-          "C640 PG | JYF-S400",
-          "C660 PG | JYF-S400",
-          "C580 PG | JYF-S1000",
-          "C690 PG | JYF-S1000",
-          "JYF-C6160 | JYF-S2000",
-          "JYF-C6200 | JYF-S2000"
+          {
+            "BR": "Modelo\n Desbobinador",
+            "ESP": "Modelo\n Devanadora",
+            "EUA": "Model\n Decoiler"
+          },
+          "C410 PG\n JYF-S100",
+          "C410 PG\n JYF-S100",
+          "C416 PG\n JYF-S100",
+          "C423 PG\n JYF-S300",
+          "C428 PG\n JYF-S300",
+          "C435 PG\n JYF-S300",
+          "C440 PG\n JYF-400",
+          "C523 PG\n JYF-S300",
+          "C640 PG\n JYF-S400",
+          "C660 PG\n JYF-S400",
+          "C580 PG\n JYF-S1000",
+          "C690 PG\n JYF-S1000",
+          "JYF-C6160\n JYF-S2000",
+          "JYF-C6200\n JYF-S2000"
         ],
         "values": [
           ["Number of Axes","4","4","4","4","4","4","5","6","6","6","5","6","6","6"  ],
@@ -361,14 +400,19 @@
         ]
       },
       "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "BR": "A mola pode ser produzida diretamente pela entrada do diâmetro da mola, OD, passo e o número de bobinas. Fornecer interface de edição de janela, como copiar, colar, inserir, substituir, apagar, editar comando, torna a entrada de dados simples, rápida e flexível. Vem com dispositivo de detecção e classificação de comprimento livre. Ele pode corrigir automaticamente o passo para garantir a precisão da produção. Sistema opcional de teste de câmera de vídeo para tolerâncias apertadas. A máquina pode possuir até seis eixos Alimentação do Arame Diâmetro externo Cortador Superior / Passo Cortador Inferior / Passo Passo  Horizontal Mandri Deslizante",
+        "EUA": "Spring can be directly produced by inputting spring diameter, OD, pitch, and the number of coils. Provide window editing interface, such as copy, paste, insert, replace, delete, edit command, makes inputting simple, fast & flexible. Optional free length detection device. It can automatically correct the pitch to ensure production accuracy. Optional video camera test system for tight tolerances. Optional defect wire detection system to ensure wire quality. Machine can have up to 6 axes Wire feeding Outer diameter Top cutter / Pitch Bottom cutter / Pitch Horizontal Pitch Mandrel Slide",
+        "ESP": "El resorte se puede producir directamente ingresando el diámetro del muelle, el diámetro exterior, el paso y la cantidad de bobinas. Proporcionar una interfaz de edición de ventanas, como copiar, pegar, insertar, reemplazar, eliminar, editar comando, hace que la entrada sea simple, rápida y flexible. Dispositivo de detección de longitud libre opcional. Puede corregir automáticamente el paso para garantizar la precisión de la producción. Sistema de prueba de cámara de video opcional para tolerancias ajustadas. Sistema opcional de detección de cables defectuosos para garantizar la calidad del cable. La máquina puede tener hasta 6 ejes Alimentacion de alambre diametro externo cortador superior/ paso cortador inferior/paso paso horizontal mandril deslizante"
       }
     },
     {
       "id": 5,
-      "label": "CNC Spring Compression",
-      "images": ["CNCAirCollWindingMachine.png"],
+      "label": {
+        "BR": "CNC Molas de Compressão",
+        "ESP": "CNC Resortes de Compressión",
+        "EUA": "CNC  Compression Spring"
+      },
+      "images": [],
       "category": "used",
       "description": {
         "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
@@ -376,7 +420,11 @@
       },
       "table": {
         "header": [
-          "Model",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "GNC-8HS",
           "GMF-8E",
           "GMF-16E",
@@ -509,19 +557,25 @@
     },
     {
       "id": 6,
-      "label": "CNC Micro Spring Machine - Compression,Torsion  and Extension springs",
+      "label": {
+        "BR": "CNC Micro Molas\n Compressão\n Torção\n Tração",
+        "ESP": "CNC Micro Resortes\n Compresión\n Torsión\n Tracción",
+        "EUA": "CNC Micro Spring\n Compression\n Torsion\n Extension"
+      },
       "category": "used",
-      "images": [
-        "Camless.png",
-        "CNCAirCollWindingMachine.png"
-      ],
+      "images": [],
       "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "BR": "O dedo da máquina  pode se mover em 3 dimensões, proporcionando flexibilidade durante a configuração da micro-mola. A máquina com micro mola é equipada com 2 eixos, o ponto de enrolamento pode mover-se em 3 dimensões,  aumentando altamente a flexibilidade durante o ajuste da mola.",
+        "ESP": "El punto de enrollado de la máquina de micromuelles puede moverse en 3 dimensiones, lo que proporciona flexibilidad durante la configuración de los micromuelles. la máquina de micromuelles está equipado con 2 ejes, punto de bobinado puede moverse en 3 dimensiones, altamente aumentar la flexibilidad durante la configuración del micromuelle.",
+        "EUA": "Micro spring machine’s coiling point can move in 3 dimensions, providing flexibility during micro spring setup. Micro spring machine is equipped with 2 axe, coiling point can move in 3 dimensions,  highly increase the flexibility during spring setup. "
       },
       "table": {
         "header": [
-          "Model",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "CT-208",
           "CT-210"
         ],
@@ -566,16 +620,25 @@
     },
     {
       "id": 7,
-      "label": "CNC Torsion Spring Machine",
-      "images": ["CNCTorsionSpringMachine.png"],
+      "label": {
+        "BR": "CNC Molas de Torção",
+        "ESP": "CNC Resortes de Torsión",
+        "EUA": "CNC Torsion Spring"
+      },
+      "images": [],
       "category": "new",
       "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "BR": "A máquina para molas de torção CNC é equipada com placas formadoras de círculo, permitindo a adição de acessórios personalizados. Ela permite que o operador ajuste as lâminas de conformação grau a grau para alcançar alta precisão. Você também pode adicionar acessórios, como tratamento de aquecimento on-line, pistola de aquecimento e etc. para combinar os processos em conjunto com uma máquina.",
+        "EUA": "CNC torsion spring machine is equipped with circle forming plates, allowing adding customized accessories. It allows operator to adjust forming slides degree by degree to reach high accuracy. You can also add accessories, such as online heating treatment, heating gun and etc. to combine the processes together with one machine.",
+        "ESP": "La máquina CNC de muelles de torsión está equipada con placas de formación de círculos, lo que permite añadir accesorios personalizados. Permite al operador ajustar las correderas de formación grado por grado para alcanzar una alta precisión. También puede agregar accesorios, tales como el tratamiento de calentamiento en línea, pistola de calentamiento y etc. para combinar los procesos junto con una máquina."
       },
       "table": {
         "header": [
-          "Model",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "TF-310",
           "TF-320",
           "TF-330"
@@ -631,16 +694,292 @@
     },
     {
       "id": 8,
-      "label": "CNC Tube Wire Benders",
-      "images": ["CNCTubeWire.png"],
+      "label": {
+        "BR": "CNC Molas de Tração",
+        "ESP": "CNC Resortes de Traccón",
+        "EUA": " CNC Extension Spring"
+      },
+      "images": [],
+      "description": {
+        "BR": "A máquina para molas de extensão é uma máquina para molas comum na indústria.  A série EF é especialmente projetada para molas de extensão padrão, tais como mola com gancho inglês (100-120ppm), gancho alemão (60-80 ppm) e gancho indiano.  Se seu gancho para molas não estiver padronizado, você pode saber mais com nossa série LE.  A série LE é adequada para ganchos especiais e sem limitação no comprimento do corpo.",
+        "ESP": "La máquina de resortes de extensión es una máquina de resortes común en la industria. La serie EF está especialmente diseñada para muelles de extensión estándar, como muelles con gancho inglés (100-120ppm), gancho alemán (60-80 ppm) y gancho indio. Si el gancho de su muelle no está estandarizado, puede obtener más información con nuestra serie LE. La serie LE es adecuada para ganchos especiales y sin limitación con la longitud del cuerpo.",
+        "EUA": "Extension spring machine is common spring machine in the industry. EF series is especially designed for standard extension springs, such as spring with English hook (100-120ppm), German hook (60-80 ppm) and Indian hook.  If your spring hook is not standardized, you can find out more with our LE series.  LE series is suitable for special hooks and no limitation with body length."
+      },
+      "category": "new",
+      "table": {
+        "header": [
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
+          "EF-210",
+          "EF-620"
+        ],
+        "values": [
+          [
+            "Wire Diamanter ( Steel Wire )",
+            "0,1 - 1,0 mm",
+            "0,6 - 2,0 mm"
+          ],
+          [
+            "Max. OD Diamanter",
+            "12 mm",
+            "20 mm"
+          ],
+          [
+            "# of Axes",
+            "2",
+            "2"
+          ],
+          [
+            "Machine dept",
+            "1310 mm",
+            "1450 mm"
+          ],
+          [
+            "Machine widht",
+            "1070 mm",
+            "1450"
+          ],
+          [
+            "Machine height",
+            "1620 mm",
+            "1800 mm"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "label": {
+        "BR": "CNC de Alta Velocidade \n Compressão\n Torção\n Extensão",
+        "ESP": "CNC de Alta Velocidad \n Compresión\n Torsión\n Tracción",
+        "EUA": " High Speed CNC \nCompression \nTorsion \nExtension"
+      },
+      "images": [],
+      "description": {
+        "BR": "A máquina de molas de tração série LE é adequada para produzir qualquer mola de extensão longa com qualquer forma de gancho.  Esta máquina para molas de tração resolve o problema dos problemas da máquina tradicional para molas, tais como comprimento longo do corpo, formas especiais de gancho e etc.  A máquina para molas de tração da série LE pode atender a todos esses requisitos.",
+        "ESP": "La máquina de muelles de tracción serie LE es adecuada para producir cualquier muelle de extensión larga con cualquier forma de gancho. Esta máquina de resorte de tensión resuelve el problema de los problemas de la máquina de resorte tradicional, tales como la longitud del cuerpo largo, formas especiales de gancho y etc..  La máquina de muelles de tracción serie LE puede satisfacer todos estos requisitos.",
+        "EUA": "Tension spring machine LE series is suitable for producing any long extension springs with any forms of hooks.  This tension spring machine solves the problem of traditional spring machine’s problems, such as long body length, special hook shapes and etc..  LE series tension spring machine can meet all these requirements."
+      },
+      "category": "new",
+      "table":{
+        "header": [
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
+          "LE-208",
+          "LE-210"
+        ],
+        "values": [
+          [
+            "Wire Diamanter ( Steel Wire )",
+            "0,2 -0,8 mm",
+            "0,2-1,0 mm"
+          ],
+          [
+            "Max. OD Diamanter",
+            "20 mm",
+            "20 mm"
+          ],
+          [
+            "# of Axes",
+            "2",
+            "2"
+          ],
+          [
+            "Machine Depht",
+            "760 mm",
+            "760 mm"
+          ],
+          [
+            "Machine Width",
+            "880 mm",
+            "880 mm"
+          ],
+          [
+            "Machine height",
+            "1550 mm",
+            "1550 mm"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "label": {
+        "BR": "CNC Mola Ondulada\n CNC Anéis Planos",
+        "ESP": "CNC Resorte Ondulado\n CNC Anillo de pistón",
+        "EUA": "CNC Wave Spring\n CNC Piston Ring"
+      },
+      "description": {
+        "BR": "A máquina de mola ondulada CNC da série PR utiliza a estampagem para cortar o material após o fio ter sido enrolado.  A forma do corte pode ser facilmente modificada através da substituição do molde de estampagem. Também pode produzir molas onduladas com alta taxa de produção.  Nossa máquina de molas onduladas trabalha com arame plano de tamanho largo. Com base no diâmetro do arame, existem 3 modelos de máquina de molas onduladas CNC.  Para atender diferentes exigências de nossos clientes, projetamos vários modelos de máquina para molas onduladas.  Saiba mais em WSF-1, PR-13 e PR-24.",
+        "ESP": "La máquina de muelles ondulados CNC de la serie PR utiliza el estampado para cortar el material después de enrollar el alambre. La forma del corte puede modificarse fácilmente sustituyendo el molde de estampación. También puede producir muelles ondulados con una alta tasa de producción.  El tamaño del alambre plano de trabajo de nuestra máquina de resortes ondulados es amplio. Según el diámetro del alambre, hay 3 modelos de máquina CNC de resortes ondulados.   Para satisfacer las diferentes necesidades de nuestros clientes, hemos diseñado varios modelos de máquina de resortes ondulados. Más información en WSF-1, PR-13 y PR-24.",
+        "EUA": "PR series CNC wave spring machine uses stamping to cut the material after the wire has been coiled.  The shape of cutting can be easily modified by replacing stamping mold. It can also produce wave springs with high production rate.  Our wave spring machine’s working flat wire size is wide. Based on wire diameter, there are 3 models of CNC wave spring machine.  To fit different requirements from our clients, we have designed various models of wave spring machine. Find out more at WSF-1, PR-13 and PR-24."
+      },
+      "images": [],
+      "category": "new",
+      "table":{
+        "header": [
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
+          "WSF-1",
+          "PR-13",
+          "PR-24"
+        ],
+        "values": [
+          [
+            "Max OD Diamanter",
+            "4 - 30,0 mm",
+            "15 - 50 mm",
+            "35 - 160 mm"
+
+          ],
+          [
+            "Cross Section Area",
+            "0,75 mm²",
+            "3 mm²",
+            "8 mm²"
+          ],
+          [
+            "Max. Strip Width",
+            "3 mm",
+            "3 mm²",
+            "4 mm"
+          ],
+          [
+            "Max. Strip Thickness",
+            "1 mm",
+            "1 mm",
+            "2 mm"
+          ],
+          [
+            "Machine Depht",
+            "950 mm",
+            "1300 mm",
+            "1700 mm"
+          ],
+          [
+            "Machine Weidht",
+            "800 mm",
+            "950 mm",
+            "980 mm"
+          ],
+          [
+            "Machine height",
+            "1600 mm",
+            "2000 mm",
+            "1800 mm"
+          ],
+          [
+            "Machine Weight",
+            "360 kgs",
+            "900 kgs",
+            "1250 kgs"
+          ]
+        ]
+
+      }
+    },
+    {
+      "id": 11,
+      "label": {
+        "BR": "CNC Enroladora Bobinas",
+        "ESP": "Bobinadora CNC",
+        "EUA": "CNC Air Coil Winding "
+      },
+      "description": {
+        "BR": "Fornecemos equipamento periférico completo e projeto personalizado, como alisamento de fios, decapagem, soldagem. Não importa o fio redondo de cobre ou fio plano de cobre, o decapador pode trabalhar com bobinadeira de ar CNC.  O processo seguinte, como a solda, também pode adicionar unidade de solda para completar o processo.",
+        "ESP": "Proporcionamos equipos periféricos completos y diseño personalizado, como enderezado, pelado y soldadura de alambres. No importa alambre de cobre redondo o alambre de cobre plano, pelador puede trabajar con la máquina de bobinado de aire CNC El siguiente proceso, como la soldadura, también puede añadir la unidad de soldadura para hacer el proceso completo.",
+        "EUA": "We provide complete peripheral equipment and customized design, such as wire straightening, stripping, soldering. No matter round copper wire or flat copper wire, stripper can work with CNC air coil winding machine.  The following process, like soldering, can also add soldering unit on to make the process completed."
+      },
+      "images": [],
+      "category": "new",
+      "table": {
+        "header": [
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
+          "PF-320",
+          "PF-335",
+          "PF-350"
+        ],
+        "values": [
+          [
+            "Wire Diamanter ( Steel Wire )",
+            "0,3 - 2,0 mm",
+            "0,4 - 3,5 mm",
+            "1,6 - 5,0 mm"
+          ],
+          [
+            "Max. OD Diamanter",
+            "15 mm",
+            "25 mm",
+            "35 mm"
+          ],
+          [
+            "# of Axes",
+            "3",
+            "3",
+            "3"
+          ],
+          [
+            "Machine Depth",
+            "950 mm",
+            "1350 mm",
+            "1480 mm"
+          ],
+          [
+            "Machine Width",
+            "800 mm",
+            "1350 mm",
+            "980 mm"
+          ],
+          [
+            "Machine Height",
+            "1450 mm",
+            "1650",
+            "1750 mm"
+          ],
+          [
+            "Machine Weight",
+            "320 kgs",
+            "850 kgs",
+            "1000 kgs"
+          ]
+        ]
+
+      }
+    },
+    {
+      "id": 12,
+      "label": {
+        "BR": "Dobradoras de Tubos CNC",
+        "ESP": "Dobladoras de Tubos CNC",
+        "EUA": "CNC Tube Benders"
+      },
+      "images": [],
       "category": "new",
       "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "BR": "Tubo Série TWB e dobradeira de arame Comprimento de alimentação padrão: 1200 mm (pode ser personalizado e alongado de acordo com as exigências do cliente) Número do eixo do servo: 6~8 eixos, precisão da usinagem: ± 0,05 ° Função de auto-diagnóstico, alarme de alerta para irregularidades Proteção contra perda de energia e duplo disco rígido sincronizado de backup de dados para evitar perda de dados Modo reversível, flexão à esquerda e à direita Executa o processamento de dobra por estiramento ou dobra por rolo Procedimento de processamento de tubos simples, acionado por servo Controles com tela sensível ao toque, ambiente operacional limpo, interface segura, simples e multilíngüe PC industrial (IPC), controles touch-screen, grande capacidade de memória. Funções de transmissão de dados em rede e solução de problemas on-line",
+        "ESP": "Dobladora de tubo y alambre serie TWB Longitud de alimentación estándar: 1200 mm (se puede personalizar y alargar según los requisitos del cliente) Número de servoejes: 6~8 ejes, precisión de mecanizado: ± 0,05 °. Función de autodiagnóstico, alarma de advertencia de irregularidades Protección contra pérdida de alimentación y copia de seguridad de datos sincronizada en doble disco duro para evitar la pérdida de datos Modo reversible, plegado a izquierda y derecha Realiza el proceso de curvado por estiramiento o por rodillo Servoaccionamiento, procedimiento sencillo de procesamiento de tubos Controles de pantalla táctil, entorno operativo limpio, interfaz segura, sencilla y multilingüe PC industrial (IPC), controles de pantalla táctil, gran capacidad de memoria. Funciones de transmisión de datos en red y solución de problemas en línea",
+        "EUA": "TWB Series Tube and Wire Bender Standard feed length: 1200 mm (can be customized & lengthened according to customer requirements) Servo axis number: 6~8 axes, machining accuracy: ± 0.05 ° Self-diagnostic function, warning alarm for irregularities Power loss safeguard & dual hard disk synchronized data backup to prevent data loss Reversible mode, left & right bending Performs stretch bending or roll bending processing Servo driven, simple tube processing procedure Touch screen controls, clean operating environment, safe, simple, multi-language interface Industrial PC (IPC), touch-screen controls, large memory capacity. Network data transmission & online troubleshooting functions"
       },
       "table": {
         "header": [
-          "Model",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "TWB-670",
           "TWB-680",
           "TWB-880",
@@ -788,245 +1127,141 @@
       }
     },
     {
-      "id": 9,
-      "label": "CNC Extension Spring",
-      "images": ["Camless.png"],
-      "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-      "category": "new",
-      "table": {
-        "header": [
-          "Model",
-          "EF-210",
-          "EF-620"
-        ],
-        "values": [
-          [
-            "Wire Diamanter ( Steel Wire )",
-            "0,1 - 1,0 mm",
-            "0,6 - 2,0 mm"
-          ],
-          [
-            "Max. OD Diamanter",
-            "12 mm",
-            "20 mm"
-          ],
-          [
-            "# of Axes",
-            "2",
-            "2"
-          ],
-          [
-            "Machine dept",
-            "1310 mm",
-            "1450 mm"
-          ],
-          [
-            "Machine widht",
-            "1070 mm",
-            "1450"
-          ],
-          [
-            "Machine height",
-            "1620 mm",
-            "1800 mm"
-          ]
-        ]
-      }
-    },
-    {
-      "id": 10,
-      "label":"CNC Tension Spring Machine",
-      "images": ["CNCTubeWire.png"],
-      "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-      "category": "new",
-      "table":{
-        "header": [
-          "Model",
-          "LE-208",
-          "LE-210"
-        ],
-        "values": [
-          [
-            "Wire Diamanter ( Steel Wire )",
-            "0,2 -0,8 mm",
-            "0,2-1,0 mm"
-          ],
-          [
-            "Max. OD Diamanter",
-            "20 mm",
-            "20 mm"
-          ],
-          [
-            "# of Axes",
-            "2",
-            "2"
-          ],
-          [
-            "Machine Depht",
-            "760 mm",
-            "760 mm"
-          ],
-          [
-            "Machine Width",
-            "880 mm",
-            "880 mm"
-          ],
-          [
-            "Machine height",
-            "1550 mm",
-            "1550 mm"
-          ]
-        ]
-      }
-    },
-    {
-      "id": 11,
-      "label": "CNC Wave Spring Machine WFS-1 CNC Piston Ring / Wave Spring MachinePR-13 & PR 24",
-      "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-      "images": ["Camless.png"],
-      "category": "new",
-      "table":{
-        "header": [
-          "Model",
-          "WSF-1",
-          "PR-13",
-          "PR-24"
-        ],
-        "values": [
-          [
-            "Max OD Diamanter",
-            "4 - 30,0 mm",
-            "15 - 50 mm",
-            "35 - 160 mm"
-
-          ],
-          [
-            "Cross Section Area",
-            "0,75 mm²",
-            "3 mm²",
-            "8 mm²"
-          ],
-          [
-            "Max. Strip Width",
-            "3 mm",
-            "3 mm²",
-            "4 mm"
-          ],
-          [
-            "Max. Strip Thickness",
-            "1 mm",
-            "1 mm",
-            "2 mm"
-          ],
-          [
-            "Machine Depht",
-            "950 mm",
-            "1300 mm",
-            "1700 mm"
-          ],
-          [
-            "Machine Weidht",
-            "800 mm",
-            "950 mm",
-            "980 mm"
-          ],
-          [
-            "Machine height",
-            "1600 mm",
-            "2000 mm",
-            "1800 mm"
-          ],
-          [
-            "Machine Weight",
-            "360 kgs",
-            "900 kgs",
-            "1250 kgs"
-          ]
-        ]
-
-      }
-    },
-    {
-      "id": 12,
-      "label": "CNC Air Coll Winding Machine",
-      "images": ["CNCAirCollWindingMachine.png"],
-      "description": {
-        "BR": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        "EUA": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-      "category": "new",
-      "table": {
-        "header": [
-          "Model",
-          "PF-320",
-          "PF-335",
-          "PF-350"
-        ],
-        "values": [
-          [
-            "Wire Diamanter ( Steel Wire )",
-            "0,3 - 2,0 mm",
-            "0,4 - 3,5 mm",
-            "1,6 - 5,0 mm"
-          ],
-          [
-            "Max. OD Diamanter",
-            "15 mm",
-            "25 mm",
-            "35 mm"
-          ],
-          [
-            "# of Axes",
-            "3",
-            "3",
-            "3"
-          ],
-          [
-            "Machine Depth",
-            "950 mm",
-            "1350 mm",
-            "1480 mm"
-          ],
-          [
-            "Machine Width",
-            "800 mm",
-            "1350 mm",
-            "980 mm"
-          ],
-          [
-            "Machine Height",
-            "1450 mm",
-            "1650",
-            "1750 mm"
-          ],
-          [
-            "Machine Weight",
-            "320 kgs",
-            "850 kgs",
-            "1000 kgs"
-          ]
-        ]
-
-      }
-    },
-    {
       "id": 13,
-      "category": "new",
-      "description": {},
+      "label": {
+        "BR": "Dobradoras de Longos Tubos CNC",
+        "ESP": "Dobladoras de Largos Tubos CNC",
+        "EUA": "CNC Long Tube Benders"
+      },
+      "category":"new",
       "images": [],
-      "label": "Multi Forming Machine Mechanical Type",
+      "description": {
+        "BR": "OTB-CNC10 CNC Dobradora de Tubos Longos Comprimento de alimentação padrão : 4000 mm, programável para peças de trabalho de até 4400 mm (dependendo dos requisitos de forma da peça de trabalho do cliente) Número do eixo do servo: 7 eixos, precisão da usinagem: ±0,05°. Função de auto-diagnóstico, alarme de alerta para irregularidades. Proteção contra perda de energia e backup de dados sincronizado em disco rígido duplo para evitar perda de dados. Modo reversível, flexão à esquerda e à direita. Realiza dobra por estiramento ou processamento de dobra por rolo. Acionamento por servo, procedimento simples de processamento de tubos. Controles com tela sensível ao toque, ambiente operacional limpo, interface segura simples e multilíngüe. Dobradeira CNC especializada projetada para tubos de pequeno diâmetro, conexões de tubos longos, tubos de óleo e uma variedade de peças de trabalho complexas. PC industrial (IPC), controles com tela sensível ao toque, grande capacidade de memória. Funções de transmissão de dados em rede e solução de problemas on-line. Processo de dobra de tubos longos totalmente automatizado.",
+        "ESP": "Máquina curvadora CNC de tubos largos de aceite OTB-CNC10 Longitud de avance estándar : 4000 mm, programable para piezas de trabajo de hasta 4400 mm (dependiendo de los requisitos de forma de la pieza de trabajo del cliente ) Número de servoejes: 7 ejes, precisión de mecanizado: ±0,05°. Función de autodiagnóstico, alarma de aviso de irregularidades. Salvaguarda de pérdida de energía y copia de seguridad de datos sincronizada de doble disco duro para evitar la pérdida de datos. Modo reversible, plegado a izquierda y derecha. Realiza el proceso de curvado por estiramiento o por rodillo. Servo accionado, procedimiento simple de procesamiento de tubos. Controles de pantalla táctil, entorno operativo limpio, interfaz multilingüe sencilla y segura. Máquina curvadora CNC especializada diseñada para tubos de pequeño diámetro, accesorios de tubería largos, tubos de aceite y una variedad de piezas de trabajo complejas. PC industrial (IPC), controles de pantalla táctil, gran capacidad de memoria. Transmisión de datos en red y funciones de localización de averías en línea. Proceso de curvado de tubos largos totalmente automatizado.",
+        "EUA": "OTB-CNC10 CNC Long Oil Tube Bender Machine Standard feed length : 4000 mm, programmable for work pieces of up to 4400 mm (depending on customer work piece shape requirements ) Servo axis number : 7-axis, machining accuracy : ±0.05° Self-diagnostic function, warning alarm for irregularities. Power loss safeguard & dual hard disk synchronized data backup to prevent data loss. Reversible mode, left & right bending. Performs stretch bending or roll bending processing. Servo driven, simple tube processing procedure. Touch screen controls, clean operating environment, safe simple, multi-language interface. Specialized CNC bending machine designed for small diameter tubing, long pipe fittings, oil tubing & a variety of complex work pieces. Industrial PC (IPC), touch-screen controls, large memory capacity. Network data transmission & online troubleshooting functions. Fully automated long tube bending process."
+      },
       "table": {
         "header": [
-          "MODEL",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
+          "OTB-CNC10 CNC"
+        ],
+        "values": [
+          [
+            {
+              "BR": "Max. Diâmetro Externo do Tubo",
+              "ESP": "Diàmetro Externo Max. Del Tubo",
+              "EUA": "Tube Diameter"
+            },
+            "8,00 mm - can be customized"
+          ],
+          [
+            {
+              "BR": "Velocidade de alimentação",
+              "ESP": "Velocidad de alimentación",
+              "EUA": "Feed Speed"
+            },
+            "900 mm / s"
+          ],
+          [
+            {
+              "BR": "Precisão",
+              "ESP": "Precisión",
+              "EUA": "Precision"
+            },
+            "+/- 0,05 mm"
+          ],
+          [
+            {
+              "BR": "Máx. Comprimento de Alimentação",
+              "ESP": "Max. Longitud de Alimentación",
+              "EUA": "Max. Feed Lenght"
+            },
+            "4000 mm - can be customized"
+          ],
+          [
+            {
+              "BR": "Máx. Ângulo de Curvatura",
+              "ESP": "Máx. Ángulo de Curvatura",
+              "EUA": "Max. Bend Angle"
+            },
+            "+/- 180°"
+          ],
+          [
+            {
+              "BR": "Máx. Raio de Curvatura",
+              "ESP": "Máx. Radio de Curvatura",
+              "EUA": "Max. Bend Radius"
+            },
+            "R40 mm"
+          ],
+          [
+            {
+              "BR": "Máx. # de Curvas",
+              "ESP": "Máx. # Número de Curvas",
+              "EUA": "Max. # of Bends"
+            },
+            "200"
+          ],
+          [
+            {
+              "BR": "# de Eixos",
+              "ESP": "# Número de Ejes",
+              "EUA": "# of Axes"
+            },
+            "7"
+          ],
+          [
+            {
+              "BR": "Max, Ângulo de Rotação",
+              "ESP": "Ángulo de Rotación Máx.",
+              "EUA": "Max, Rotation Angle"
+            },
+            "Unlimited"
+          ],
+          [
+            {
+              "BR": "Dimensões da Máquina ",
+              "ESP": "Dimensiones de la Máquina ",
+              "EUA": "Machine Dimensions "
+            },
+            "5300 mm x 1100 mm x 1800 mm"
+          ],
+          [
+            {
+              "BR": "Peso da Máquina",
+              "ESP": "Peso de la Máquina",
+              "EUA": "Machine Weight"
+            },
+            "3500 kgs"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "label": {
+        "BR": "Multi Formadora de Fita e Arame\n Tipo Mecânico",
+        "ESP": "Multiformadora de Alambre y Banda\n Tipo Mecánico",
+        "EUA": "Multi Forming Wire & Strip\n Mechanical Type"
+      },
+      "category": "new",
+      "description": {
+        "BR": "Ideal para fios e fitas Posição flexível da corrediça Taxa de produção rápida Preciso e estável Alimentação contínua, dobra e estampagem Lubrificação automática Detecção de segurança para desconexão e atolamento de material Unidade de cames traseiros Porta de segurança opcional",
+        "ESP": "Ideal para alambre y fleje Posición flexible del carro Rápida velocidad de producción Precisa y estable Alimentación, plegado y estampado continuos Lubricación automática Detección de seguridad por desconexión de material y atasco Unidad de leva trasera Cubierta de seguridad opcional",
+        "EUA": "Ideal for wire and strip Flexible slide position Fast production rate Precise and stable Continuos feeding, bending and stamping Auto lubrication Safety detection for material disconnection and jam Rear cam unit Optional safety cover"
+      },
+      "images": [],
+      "table": {
+        "header": [
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "GSM-10T",
           "GSM-26T",
           "GSM-30T",
@@ -1159,13 +1394,21 @@
 
     },
     {
-      "id": 14,
-      "label": "Multi Forming Machine CNC Type",
+      "id": 15,
+      "label": {
+        "BR": "Multi Formadora de Fita e Arame\n Tipo CNC",
+        "ESP": "Multiformadora de Alambre y Fleje \n Tipo CNC",
+        "EUA": "Multi Forming Wire & Strip\n CNC Type"
+      },
       "category": "new",
       "images": [],
       "table": {
         "header": [
-          "MODEL",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "GSC-10T",
           "GSC-26T",
           "GSM-26TP",
@@ -1190,16 +1433,34 @@
           ["Machine Height","1800 mm","1800 mm","1800 mm","1900 mm","2350 mm","1800 mm"  ],
           ["Machine Weight","700 kgs","2500 kgs","2900 kgs","4300 kgs","6800 kgs","1200 kgs"  ]
         ]
+      },
+      "description": {
+        "BR": "Ideal para fios e fitas Posição flexível da corrediça Taxa de produção rápida Preciso e estável Alimentação contínua, dobra e estampagem Lubrificação automática Detecção de segurança para desconexão e atolamento de material Unidade de cames traseiros Porta de segurança opcional",
+        "ESP": "Ideal para alambre y fleje Posición flexible del carro Rápida velocidad de producción Precisa y estable Alimentación, plegado y estampado continuos Lubricación automática Detección de seguridad por desconexión de material y atasco Unidad de leva trasera Cubierta de seguridad opcional",
+        "EUA": "Ideal for wire and strip Flexible slide position Fast production rate Precise and stable Continuos feeding, bending and stamping Auto lubrication Safety detection for material disconnection and jam Rear cam unit Optional safety cover"
       }
     },
     {
-      "id": 15,
+      "id": 16,
       "category": "new",
       "images": [],
-      "label": "Garter Spring Jointing Machine",
+      "label": {
+        "BR": "Molas de Retentores",
+        "ESP": "Muelles de Liga",
+        "EUA": "Garter Spring Jointing"
+      },
+      "description": {
+        "BR": "Máquina de fabricação de moas de retentores O controlador CNC controla 2 servomotores para acionar o came para atingir a maior velocidade de enrolamento, alta precisão e a melhor durabilidade. Cams de precisão e ferramentas de corte especificadas permitem o ajuste rápido do diâmetro do fio de bobinamento.",
+        "ESP": "Esta máquina de fabricación de muelles liguero enrolla el alambre en el muelle liguero. El controlador CNC controla 2 servomotores para accionar la leva y alcanzar la mayor velocidad de enrollado, alta precisión y la mejor durabilidad. Las levas de precisión y las herramientas de corte especificadas permiten un ajuste rápido del diámetro del alambre enrollado.",
+        "EUA": "This garter spring making machine coils the wire into the garter spring. The CNC controller controls 2 servo motors to drive the Cam to reach the highest coiling speed, high precision and the best durability. Precision Cams and specified cutting tools enable fast adjustment of the coiling wire diameter."
+      },
       "table": {
         "header": [
-          "MODEL",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "SJ-101B",
           "SJ-101C",
           "SJ-102B",
@@ -1224,12 +1485,25 @@
       }
     },
     {
-      "id": 16,
+      "id": 17,
       "images": [],
-      "label": "CNC Spring Ends Grinder",
+      "label": {
+        "BR": "Retífica CNC\n de extremidades de mola",
+        "ESP": "Rectificadora CNC \n de extremos de resortes",
+        "EUA": "CNC Spring Ends Grinder"
+      },
+      "description": {
+        "BR": "Moedor descendente Conversão horizontal de pedras Refrigeração a ar Moagem a seco Placa de carga única Moedor opcional feito sob medida, coletor de pó, etc.",
+        "ESP": "Trituradora de alimentación descendente Conversión de piedra horizontal Refrigeración por aire Molienda en seco Placa de carga única Amoladora a medida opcional, colector de polvo, etc.",
+        "EUA": "Down feed grinder Horizontal stone conversion Air cooling Dry grinding Single loading plate Optional custom made grinder, dust collector, etc."
+      },
       "table": {
         "header": [
-          "MODEL",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "G-300S",
           "G-300",
           "G-450",
@@ -1254,13 +1528,26 @@
 
     },
     {
-      "id": 17,
+      "id": 18,
       "category": "new",
       "images": [],
-      "label": "Wire Straightening & Cutting Machine",
+      "label": {
+        "BR": "Endireitadeira e \n Cortadeira de Arame",
+        "ESP": "Enderezadora y \n Cortadora de Alambre",
+        "EUA": "Wire Straightening & Cutting"
+      },
+      "description": {
+        "BR": "Estas máquinas são adequadas para produtos processados de corte reto de não metais e fios de ferro,",
+        "ESP": "Estas máquinas son adecuadas para el corte recto de productos transformados no metálicos y alambres de hierro.",
+        "EUA": "These machines as suitable for straight cutting processed products of non-metals & iron wires"
+      },
       "table": {
         "header": [
-          "MODEL",
+          {
+            "BR": "Modelo",
+            "ESP": "Modelo",
+            "EUA": "Model"
+          },
           "GWS - 103",
           "GWS - 104",
           "GWS - 105",
@@ -1278,12 +1565,25 @@
       }
     },
     {
-      "id": 18,
+      "id": 19,
       "category": "new",
       "images": [],
-      "label": "Special Mold Heading Machine ",
+      "label": {
+        "BR": "Fabricação de Moldes Especiais",
+        "ESP": "Cabezal para Moldes Especiales ",
+        "EUA": "Special Mold Heading "
+      },
+      "description": {
+        "BR": "Economia de material Moldes de baixo custo Reduzir o tempo de processamento Produtos com possibilidade de alongamento infinito",
+        "ESP": "Ahorro de material Moldes de bajo coste Reducción del tiempo de procesamiento 4Productos con posibilidad de alargamiento infinito",
+        "EUA": "Material-saving Low cost molds Shorten processing time Products with infinitely lengthened possibility"
+      },
       "table": {
-        "header": ["MODEL","GP/ODH5X75"],
+        "header": [{
+          "BR": "Modelo",
+          "ESP": "Modelo",
+          "EUA": "Model"
+        },"GP/ODH5X75"],
         "values": [
           ["Feeding Mechanism","Feeding Vibrator (Single Direction, A, B, or C type depends on actual products.)"  ],
           ["Forging Load","20000 kgs"  ],
@@ -1300,5 +1600,19 @@
         ]
       }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ]
 }

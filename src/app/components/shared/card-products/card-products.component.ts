@@ -26,6 +26,16 @@ export class CardProductsComponent implements OnInit {
     );
   }
 
+  get getLabel() {
+    if (this.product?.label && this.product?.label[this.translate]) {
+      return this.product.label[this.translate]
+    } else if (this.product?.label && this.product?.label['BR']) {
+      return this.product.label['BR']
+    } else {
+      return ''
+    }
+  }
+
   get getDescription() {
     if (this.product?.description && this.product?.description[this.translate]) {
       return this.product.description[this.translate]

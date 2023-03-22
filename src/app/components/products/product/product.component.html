@@ -2,7 +2,7 @@
 <div class="container">
   <div class="container--title">
     <h2>
-      {{ product.label }}
+      {{ getLabel }}
     </h2>
   </div>
   <div class="container--content">
@@ -10,9 +10,10 @@
       {{ getDescription }}
     </div>
     <div class="container--content-image" *ngIf="product?.images?.length > 0">
-      <div class="image" *ngFor="let img of product.images">
+      <!-- <div class="image" *ngFor="let img of product.images">
         <img [src]="'./assets/machines/' + img" alt="">
-      </div>
+      </div> -->
+      <app-carousel [imagesList]="product.images"></app-carousel>
     </div>
   </div>
 
