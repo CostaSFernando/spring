@@ -2,6 +2,8 @@
   <div class="container--images" #images (wheel)="adjustImage($event)">
     <div class="image" *ngFor="let img of imagesList"> <img [src]="img" alt=""> </div>
   </div>
-
-
+  <div class="container--buttons" >
+    <button (click)="previousImage(images)">{{ getLabelButtonPreviousImage }}</button>
+    <button (click)="nextImage(images)">{{ getLabelButtonNextImage }}</button>
+  </div>
 </div>

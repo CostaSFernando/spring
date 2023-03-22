@@ -3,6 +3,8 @@
   height: 100%
   max-width: 500px
   max-height: 500px
+  display: flex
+  flex-direction: column
 
   &--images
     overflow-x: overlay
@@ -23,29 +25,19 @@
         width: 100%
         object-fit: cover
 
-  &--actions
-    position: fixed
-    // width: 100%
-    // height: 100%
-    // display: flex
-    // flex-direction: row
-    // align-items: center
-    // justify-content: space-between
-    // padding: 0 10px
+  &--buttons
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    padding: 5px
 
-    .previous, .next
-      box-shadow: 1px 1px 5px var(--white-color)
-      text-shadow: 1px 1px 5px var(--black-color)
-      color: var(--gray-color)
+    button
+      border: none
+      padding: 10px
+      border-radius: 10px
       cursor: pointer
-      border-radius: 50%
-      height: 50px
-      width: 50px
-      display: flex
-      justify-content: center
-      align-items: center
 
       &:hover
-        background: var(--white-color)
-        color: black
+        box-shadow: 1px 1px 3px .2px var(--black-color)
 

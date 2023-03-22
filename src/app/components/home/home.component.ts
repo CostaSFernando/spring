@@ -11,7 +11,6 @@ const config = require('../../../assets/data/data.json');
 export class HomeComponent implements OnInit {
   config = config
   textDescription: string = '';
-  listImgs = ['./assets/imagens/caminhao.jpeg', './assets/imagens/caminhao.jpeg', './assets/imagens/caminhao.jpeg']
 
   constructor(
     private translationService: TranslationService
