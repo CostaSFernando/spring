@@ -75,6 +75,10 @@
 
       .open
         display: flex !important
+        transform: translateY(0%) !important
+        transition-duration: 2s
+        transition-timing-function: cubic-bezier(0.62, 0.64, 0.4, 0.43)
+
 
       &--button
         width: 100%
@@ -88,8 +92,9 @@
           cursor: pointer
 
       .buttons-mobile--items
-        display: none
-        position: fixed
+        transform: translateY(100%)
+        transition: all 1s cubic-bezier(1, 0.29, 0.58, 1)
+        position: absolute
         width: 100vw
         height: calc(100vh - 80px)
         background: var(--gray-color)
@@ -111,7 +116,9 @@
           bottom: 0
           height: 100px
 
-
+      .close
+        animation-name: closeMenu
+        animation-duration: 5s
     .logo
       max-height: 100%
       display: flex
@@ -120,3 +127,16 @@
 
       img
         height: 60px
+
+@keyframes openMenu
+  from
+    height: 0px
+  to
+    height: calc(100vh - 80px)
+
+@keyframes closeMenu
+  from
+    height: calc(100vh - 80px)
+  to
+    height: 2px
+
