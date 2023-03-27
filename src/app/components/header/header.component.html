@@ -5,6 +5,8 @@
       <img src="./assets/imagens/logospring-removebg-preview.png" alt="" [routerLink]="['']">
     </div>
     <div class="buttons">
+
+
       <ng-container *ngFor="let button of buttons">
         <div class="item" [routerLink]="[button]">
           {{ config.buttons[button][translateItem.type] }}
@@ -13,6 +15,26 @@
       <div class="translate" *ngIf="translations">
         <div class="translate--item" *ngFor="let item of translations">
           <img [ngClass]="{ 'selected': selectedTranslate(item) }" [src]="'./assets/bandeiras/' + item.img" (click)="selectTranslate(item)">
+        </div>
+      </div>
+    </div>
+    <div class="buttons-mobile">
+
+
+      <div class="buttons-mobile--button">
+        <img *ngIf="!openMenu" src="./assets/imagens/Hamburger_icon.png" alt="" (click)="openMenu = !openMenu">
+        <img *ngIf="openMenu" src="./assets/imagens/close-icon.png" alt="" (click)="openMenu = !openMenu">
+      </div>
+      <div class="buttons-mobile--items" [ngClass]="{'open': openMenu}">
+        <ng-container *ngFor="let button of buttons">
+          <div class="item" (click)="redirectButton(button)">
+            {{ config.buttons[button][translateItem.type] }}
+          </div>
+        </ng-container>
+        <div class="translate" *ngIf="translations">
+          <div class="translate--item" *ngFor="let item of translations">
+            <img [ngClass]="{ 'selected': selectedTranslate(item) }" [src]="'./assets/bandeiras/' + item.img" (click)="selectTranslate(item)">
+          </div>
         </div>
       </div>
     </div>
