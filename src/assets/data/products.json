@@ -625,7 +625,11 @@
         "ESP": "CNC Resortes de Torsión",
         "EUA": "CNC Torsion Spring"
       },
-      "images": [],
+      "images": [
+        "https://www.wire-machine.com.tw/upload/product/202012031447430.jpg",
+        "https://www.wire-machine.com.tw/upload/product/202208091457080.jpg",
+        "https://www.wire-machine.com.tw/upload/product/202208091456580.jpg"
+      ],
       "category": "new",
       "description": {
         "BR": "A máquina para molas de torção CNC é equipada com placas formadoras de círculo, permitindo a adição de acessórios personalizados. Ela permite que o operador ajuste as lâminas de conformação grau a grau para alcançar alta precisão. Você também pode adicionar acessórios, como tratamento de aquecimento on-line, pistola de aquecimento e etc. para combinar os processos em conjunto com uma máquina.",
@@ -1600,19 +1604,5 @@
         ]
       }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ]
 }
